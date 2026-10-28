@@ -1,0 +1,2810 @@
+[
+ {
+  "no": 1,
+  "word": "Absolved",
+  "meaning": "Declare someone free from guilt, obligation, or punishment.",
+  "syn1": "Relieve",
+  "syn2": "Exempt",
+  "syn3": "Excuse",
+  "sentence": "A police investigation yesterday absolved the accused of all blame in the incident."
+ },
+ {
+  "no": 2,
+  "word": "Abstruse",
+  "meaning": "Difficult to understand; obscure.",
+  "syn1": "Perplexing",
+  "syn2": "Involuted",
+  "syn3": "Cryptic",
+  "sentence": "The professor's lectures were so abstruse that students ended up getting confused rather than clear on the concept."
+ },
+ {
+  "no": 3,
+  "word": "Accentuate",
+  "meaning": "To make more noticeable or prominent",
+  "syn1": "Underscore",
+  "syn2": "Emphasize",
+  "syn3": "Highlight",
+  "sentence": "Organizations tend to advertise themselves by accentuating the positives they can offer."
+ },
+ {
+  "no": 4,
+  "word": "Accretion",
+  "meaning": "Growth or increase by the gradual accumulation of additional layers or matter.",
+  "syn1": "Accumulation",
+  "syn2": "Accrual",
+  "syn3": "Augmentation",
+  "sentence": "The fund was increased by the accretion of new shareholders."
+ },
+ {
+  "no": 5,
+  "word": "Acquiesce",
+  "meaning": "Accept something reluctantly but without protest.",
+  "syn1": "Permit",
+  "syn2": "Allow",
+  "syn3": "Tolerate",
+  "sentence": "He has gradually acquiesced to the demands of the opposition."
+ },
+ {
+  "no": 6,
+  "word": "Adroit",
+  "meaning": "Clever or skilful.",
+  "syn1": "Adept",
+  "syn2": "Deft",
+  "syn3": "Competent",
+  "sentence": "It would be far more politically adroit to do this and it would ensure that these unfortunate individuals are decently treated."
+ },
+ {
+  "no": 7,
+  "word": "Affinity",
+  "meaning": "A natural liking for someone or something.",
+  "syn1": "Empathy",
+  "syn2": "Chemistry",
+  "syn3": "Connection",
+  "sentence": "His affinity for chocolates led him to develop tooth cavities."
+ },
+ {
+  "no": 8,
+  "word": "Agglomeration",
+  "meaning": "A mass or collection of things; an assemblage.",
+  "syn1": "Cluster",
+  "syn2": "Clump",
+  "syn3": "Accumulation",
+  "sentence": "I believe that the vast agglomerations in our comprehensive schools have proved destructive of individuality."
+ },
+ {
+  "no": 9,
+  "word": "Alacrity",
+  "meaning": "Brisk and cheerful readiness.",
+  "syn1": "Enthusiasm",
+  "syn2": "Zeal",
+  "syn3": "Eagerness",
+  "sentence": "The SAT exam is an interesting challenge and students usually respond to it with alacrity."
+ },
+ {
+  "no": 10,
+  "word": "Ambidextrous",
+  "meaning": "Able to use the right and left hands equally well.",
+  "syn1": "Equipoised",
+  "syn2": "Two-handed",
+  "syn3": "Lacking lateral dominance",
+  "sentence": "Guatelli says the master was ambidextrous, that he sketched with his right hand while he wrote with his left—simultaneously."
+ },
+ {
+  "no": 11,
+  "word": "Ameliorate",
+  "meaning": "To make (something bad or unsatisfactory) better.",
+  "syn1": "Amend",
+  "syn2": "Reform",
+  "syn3": "Rectify",
+  "sentence": "The labor union's attempts to ameliorate the working conditions had little effect."
+ },
+ {
+  "no": 12,
+  "word": "Amorphous",
+  "meaning": "Without a clearly defined shape or form",
+  "syn1": "Structureless",
+  "syn2": "Indeterminate",
+  "syn3": "Unstructured",
+  "sentence": "The offense was amorphous in nature and so it would be difficult to prosecute."
+ },
+ {
+  "no": 13,
+  "word": "Anachronism",
+  "meaning": "A thing belonging or appropriate to a period other than that in which it exists, especially a thing that is conspicuously old-fashioned.",
+  "syn1": "Obsolete",
+  "syn2": "Vintage",
+  "syn3": "Antiquated",
+  "sentence": "The town is a throwback to medieval times, an anachronism that has survived the passing years."
+ },
+ {
+  "no": 14,
+  "word": "Anamalous",
+  "meaning": "Deviating from what is standard, normal, or expected.",
+  "syn1": "Abnormal",
+  "syn2": "Atypical",
+  "syn3": "Exceptional",
+  "sentence": "He is in an anomalous position as the only part-time worker in the firm."
+ },
+ {
+  "no": 15,
+  "word": "Anthropomorphic",
+  "meaning": "Having human characteristics.",
+  "syn1": "Humanlike",
+  "syn2": "Humanoid",
+  "syn3": "Anthropoid",
+  "sentence": "It is anthropomorphic, they argue, to say that other creatures experience feelings like compassion, even when their behavior appears — to our human eyes — to be impelled by it."
+ },
+ {
+  "no": 16,
+  "word": "Appease",
+  "meaning": "Pacify or placate (someone) by acceding to their demands.",
+  "syn1": "Conciliate",
+  "syn2": "Propitiate",
+  "syn3": "Reconcile",
+  "sentence": "Their acknowledgement of responsibility has done nothing to appease her anger."
+ },
+ {
+  "no": 17,
+  "word": "Appraise",
+  "meaning": "Assess the value or quality of",
+  "syn1": "Evaluate",
+  "syn2": "Estimate",
+  "syn3": "Gauge",
+  "sentence": "The painting was appraised at 5 million dollars by the insurance company."
+ },
+ {
+  "no": 18,
+  "word": "Apprise",
+  "meaning": "Inform or tell.",
+  "syn1": "Intimate",
+  "syn2": "Notify",
+  "syn3": "Update",
+  "sentence": "He came to apprise us of the fact that the work had been completed."
+ },
+ {
+  "no": 19,
+  "word": "Assuage",
+  "meaning": "Make an unpleasant feeling less intense; to satisfy",
+  "syn1": "Mitigate",
+  "syn2": "Alleviate",
+  "syn3": "Gratify",
+  "sentence": "To assuage his sister's grief, he took her for a holiday."
+ },
+ {
+  "no": 20,
+  "word": "Attenuate",
+  "meaning": "Reduce the force, effect, or value of.",
+  "syn1": "Reduced",
+  "syn2": "Impaired",
+  "syn3": "Enervated",
+  "sentence": "Storm suggests hopefully that a planetary crisis, such as climate change, might attenuate nationalism."
+ },
+ {
+  "no": 21,
+  "word": "Attest",
+  "meaning": "Provide or serve as clear evidence of.",
+  "syn1": "Certify",
+  "syn2": "Corroborate",
+  "syn3": "Substantiate",
+  "sentence": "As any serious gamer will attest, online experiences can have real-life consequences."
+ },
+ {
+  "no": 22,
+  "word": "Attrition",
+  "meaning": "The process of reducing something's strength or effectiveness through sustained attack or pressure.",
+  "syn1": "Enfeebling",
+  "syn2": "Attenuation",
+  "syn3": "Weakening",
+  "sentence": "No other army in the world would choose to sustain such an attrition rate."
+ },
+ {
+  "no": 23,
+  "word": "Augment",
+  "meaning": "Make greater by adding to it or increasing.",
+  "syn1": "Supplement",
+  "syn2": "Amplify",
+  "syn3": "Elevate",
+  "sentence": "I will not augment difficulties by protesting against them as this would only lead to wasted time and energy."
+ },
+ {
+  "no": 24,
+  "word": "Auspicious",
+  "meaning": "Conducive to success; favourable.",
+  "syn1": "Propitious",
+  "syn2": "Promising",
+  "syn3": "Opportune",
+  "sentence": "This is called the shahi snan (or the royal dip), and marks the most auspicious—and the most crowded—days of the fair."
+ },
+ {
+  "no": 25,
+  "word": "Austere",
+  "meaning": "Severe or strict in manner or attitude",
+  "syn1": "Stern",
+  "syn2": "Frosty",
+  "syn3": "Stringent",
+  "sentence": "A monk chooses to live an austere life because of his beliefs."
+ },
+ {
+  "no": 26,
+  "word": "Banal",
+  "meaning": "So lacking in originality as to be obvious and boring.",
+  "syn1": "Hackneyed",
+  "syn2": "Platitudinous",
+  "syn3": "Vapid",
+  "sentence": "The experts' banal interpretation of the match made for a post match show that saw ratings drop to an all time low."
+ },
+ {
+  "no": 27,
+  "word": "Begrudgingly",
+  "meaning": "Reluctantly or resentfully.",
+  "syn1": "Belligerently",
+  "syn2": "Rudely",
+  "syn3": "Contemptuously",
+  "sentence": "Later, however, they begrudgingly accept his help."
+ },
+ {
+  "no": 28,
+  "word": "Buttress",
+  "meaning": "A source of defence or support.",
+  "syn1": "Strengthen",
+  "syn2": "Reinforce",
+  "syn3": "Fortify",
+  "sentence": "The overwhelming evidence found at the burial site seemed to buttress their argument."
+ },
+ {
+  "no": 29,
+  "word": "Calibrate",
+  "meaning": "Mark (a gauge or instrument) with a standard scale of readings.",
+  "syn1": "Measure",
+  "syn2": "Compute",
+  "syn3": "Gauge",
+  "sentence": "The age of the tree was calibrated from the carbon dating data."
+ },
+ {
+  "no": 30,
+  "word": "Candor",
+  "meaning": "The quality of being open and honest",
+  "syn1": "Sincerity",
+  "syn2": "Truthfulness",
+  "syn3": "Frankness",
+  "sentence": "The student's analysis of his weak areas was done with such candor that it endeared him to his teachers."
+ },
+ {
+  "no": 31,
+  "word": "Capacious",
+  "meaning": "Having a lot of space inside; roomy.",
+  "syn1": "Commodious",
+  "syn2": "Spacious",
+  "syn3": "Ample",
+  "sentence": "Gabriel has long funneled his capacious intellect and empathy into music."
+ },
+ {
+  "no": 32,
+  "word": "Capricious",
+  "meaning": "Given to sudden and unaccountable changes of mood or behaviour",
+  "syn1": "Fickle",
+  "syn2": "Haphazard",
+  "syn3": "Erratic",
+  "sentence": "The capricious nature of fate always results in hope, even in the most downtrodden in our society."
+ },
+ {
+  "no": 33,
+  "word": "Catalyzing",
+  "meaning": "Cause or accelerate something by acting as a catalyst",
+  "syn1": "Prompt",
+  "syn2": "Imbue",
+  "syn3": "Ferment",
+  "sentence": "The new policies introduced by the government had a catalyzing effect on E-commerce."
+ },
+ {
+  "no": 34,
+  "word": "Circumvent",
+  "meaning": "To avoid (defeat, failure, unpleasantness, etc.) by artfulness or deception; avoid by anticipating or outwitting.",
+  "syn1": "Evade",
+  "syn2": "Avoid",
+  "syn3": "Dodge",
+  "sentence": "Rahul circumvented the traffic jam by taking an alternate route."
+ },
+ {
+  "no": 35,
+  "word": "Coalesce",
+  "meaning": "Come together to form a single mass or whole",
+  "syn1": "Combine",
+  "syn2": "Merge",
+  "syn3": "Amalgamate",
+  "sentence": "Political parties in the opposition often coalesce to challenge the party in power."
+ },
+ {
+  "no": 36,
+  "word": "Colloquialism",
+  "meaning": "A word or phrase that is not formal or literary and is used in ordinary or familiar conversation.",
+  "syn1": "Conversational vernacular",
+  "syn2": "Synonyms",
+  "syn3": "Dialectal",
+  "sentence": "What people have suffered during the pandemic is \"touch hunger,\" a colloquial term for what social scientists call \"affection deprivation\", a state in which individuals want or need more affection than they receive."
+ },
+ {
+  "no": 37,
+  "word": "Concomitant",
+  "meaning": "Naturally accompanying or associated.",
+  "syn1": "Accompanying",
+  "syn2": "Accessory",
+  "syn3": "Auxillary",
+  "sentence": "He sought high grades without the necessary concomitant of hard work."
+ },
+ {
+  "no": 38,
+  "word": "Concur",
+  "meaning": "Be of the same opinion; agree.",
+  "syn1": "Accord",
+  "syn2": "Agree",
+  "syn3": "Synchronize",
+  "sentence": "He said the mayor should not be reelected, and the voters concurred."
+ },
+ {
+  "no": 39,
+  "word": "Conjecture",
+  "meaning": "An opinion or conclusion formed on the basis of incomplete information.",
+  "syn1": "Presumption",
+  "syn2": "Hypothesis",
+  "syn3": "Speculation",
+  "sentence": "Whether Artificial Intelligence will take over the world in the future is pure conjecture."
+ },
+ {
+  "no": 40,
+  "word": "Convene",
+  "meaning": "Come or bring together for a meeting or activity",
+  "syn1": "Assemble",
+  "syn2": "Congregate",
+  "syn3": "Muster",
+  "sentence": "The army convened all the senior officials to discuss how to deal with the apparent terror threat."
+ },
+ {
+  "no": 41,
+  "word": "Copious",
+  "meaning": "Abundant in supply or quantity",
+  "syn1": "Considerable",
+  "syn2": "Ample",
+  "syn3": "Substantial",
+  "sentence": "Students are expected to take copious notes while attending lectures."
+ },
+ {
+  "no": 42,
+  "word": "Corroborate",
+  "meaning": "Confirm or give support to (a statement, theory, or finding).",
+  "syn1": "Confirm",
+  "syn2": "Verify",
+  "syn3": "Validate",
+  "sentence": "My personal experience does not corroborate your faith in the essential goodness of people."
+ },
+ {
+  "no": 43,
+  "word": "Counterbalance",
+  "meaning": "A weight that balances another weight.",
+  "syn1": "Correct",
+  "syn2": "Counterveil",
+  "syn3": "Equalizer",
+  "sentence": "Her calm nature served as a natural counterbalance to his excitable personality."
+ },
+ {
+  "no": 44,
+  "word": "Defunct",
+  "meaning": "No longer in effect or use; not operating or functioning.",
+  "syn1": "Inoperative",
+  "syn2": "Unusable",
+  "syn3": "Obsolete",
+  "sentence": "Measuring 30 feet long by 15 feet wide, the plane features a lifting body and innovative wings that enable it to land on a runway in the style of NASA's now defunct space shuttle."
+ },
+ {
+  "no": 45,
+  "word": "Demarcated",
+  "meaning": "Set the boundaries or limits of.",
+  "syn1": "Seperate",
+  "syn2": "Divide",
+  "syn3": "Differentiate",
+  "sentence": "The agents placed their bounty in front of the garage in a spot demarcated by yellow cones."
+ },
+ {
+  "no": 46,
+  "word": "Detractor",
+  "meaning": "A person who disparages someone or something.",
+  "syn1": "Critic",
+  "syn2": "Attacker",
+  "syn3": "Denigrator",
+  "sentence": "His detractors claim that his fierce temper makes him unsuitable for party leadership."
+ },
+ {
+  "no": 47,
+  "word": "Discern",
+  "meaning": "Recognize or find out; distinguish (someone or something) with difficulty by sight or with the other senses.",
+  "syn1": "Perceive",
+  "syn2": "Differentiate",
+  "syn3": "Recognize",
+  "sentence": "Humans often discern between poisonous and harmless food through their sense of smell."
+ },
+ {
+  "no": 48,
+  "word": "Disconcerting",
+  "meaning": "Causing one to feel unsettled.",
+  "syn1": "Unnerving",
+  "syn2": "Perturbing",
+  "syn3": "Concerning",
+  "sentence": "His message is deeply disconcerting for anyone who values democracy."
+ },
+ {
+  "no": 49,
+  "word": "Discrepancy",
+  "meaning": "An illogical or surprising lack of compatibility or similarity between two or more facts.",
+  "syn1": "Inconsistency",
+  "syn2": "Disparity",
+  "syn3": "Deviation",
+  "sentence": "The commission's own comparison of redemption values and current land prices revealed a large discrepancy."
+ },
+ {
+  "no": 50,
+  "word": "Disparage",
+  "meaning": "Regard or represent as being of little worth.",
+  "syn1": "Denigrate",
+  "syn2": "Depreciate",
+  "syn3": "Trivialize",
+  "sentence": "Voters don't like political advertisements in which opponents disparage one another."
+ },
+ {
+  "no": 51,
+  "word": "Disparate",
+  "meaning": "Essentially different in kind; not able to be compared.",
+  "syn1": "Contrasting",
+  "syn2": "Differing",
+  "syn3": "Diverse",
+  "sentence": "Scott Elliott's direction fails to fit all the seemingly disparate vocabulary of Shepard's work into a coherent stage language."
+ },
+ {
+  "no": 52,
+  "word": "Dispersed",
+  "meaning": "Distribute or spread over a wide area.",
+  "syn1": "Scatter",
+  "syn2": "Disseminate",
+  "syn3": "Broadcast",
+  "sentence": "The mists of my confusion were being dispersed by reading God's Word."
+ },
+ {
+  "no": 53,
+  "word": "Disquieted",
+  "meaning": "Make (someone) worried or uneasy.",
+  "syn1": "Perturb",
+  "syn2": "Agitate",
+  "syn3": "Unnerve",
+  "sentence": "World leaders are surely disquieted by the prospect of a global economic meltdown."
+ },
+ {
+  "no": 54,
+  "word": "Dissimilitude",
+  "meaning": "Dissimilarity or diversity.",
+  "syn1": "Variance",
+  "syn2": "Heterogeneity",
+  "syn3": "Disparity",
+  "sentence": "There's a real dissimilitude between literature and film, and a critic shouldn't evaluate one in terms of the other."
+ },
+ {
+  "no": 55,
+  "word": "Dogmatic",
+  "meaning": "Inclined to lay down principles as undeniably true",
+  "syn1": "Opinionated",
+  "syn2": "Peremptory",
+  "syn3": "Adamant",
+  "sentence": "The tutor's dogmatic approach towards his students would inevitably lead to irrational discourse."
+ },
+ {
+  "no": 56,
+  "word": "Eclipsed",
+  "meaning": "Deprive (someone or something) of significance or power.",
+  "syn1": "Overshadow",
+  "syn2": "Surpass",
+  "syn3": "Outstrip",
+  "sentence": "The concerns regarding the environment were eclipsed by the onset of a pandemic."
+ },
+ {
+  "no": 57,
+  "word": "Egregious",
+  "meaning": "Outstandingly bad; shocking.",
+  "syn1": "Appalling",
+  "syn2": "Terrible",
+  "syn3": "Ghastly",
+  "sentence": "That is still five years behind the rest of the city, but the gap is no longer so egregious."
+ },
+ {
+  "no": 58,
+  "word": "Elicit",
+  "meaning": "Evoke or draw out (a reaction, answer, or fact) from someone.",
+  "syn1": "Obtain",
+  "syn2": "Extract",
+  "syn3": "Engender",
+  "sentence": "I tried to elicit a smile from Joanna."
+ },
+ {
+  "no": 59,
+  "word": "Elide",
+  "meaning": "Omit (a sound or syllable) when speaking; join together",
+  "syn1": "Delete",
+  "syn2": "Cancel",
+  "syn3": "Neglect",
+  "sentence": "There have been mass complaints across social media about mainstream media announcers eliding their words."
+ },
+ {
+  "no": 60,
+  "word": "Emanate",
+  "meaning": "Issue or spread out from (a source).",
+  "syn1": "Emerge",
+  "syn2": "Ensue",
+  "syn3": "Originate",
+  "sentence": "The dark understory of the forest began to glow, a vibration emanating from its depths, rising to the sound of a jet engine."
+ },
+ {
+  "no": 61,
+  "word": "Embellish",
+  "meaning": "Make (something) more attractive by the addition of decorative details or features.",
+  "syn1": "Adorn",
+  "syn2": "Ornament",
+  "syn3": "Garnish",
+  "sentence": "There were claims the candidate had embellished his war record."
+ },
+ {
+  "no": 62,
+  "word": "Endanger",
+  "meaning": "Put (someone or something) at risk or in danger.",
+  "syn1": "Imperil",
+  "syn2": "Jeopardize",
+  "syn3": "Risk",
+  "sentence": "Recent deforestation activity in the Amazon Basin has endangered the existence of many rare species of plants."
+ },
+ {
+  "no": 63,
+  "word": "Engender",
+  "meaning": "Cause or give rise to (a feeling, situation, or condition)",
+  "syn1": "Instigate",
+  "syn2": "Induce",
+  "syn3": "Rouse",
+  "sentence": "The feeling of comfort and stability that the leader engenders in those who are in his charge leads to better performance and productivity."
+ },
+ {
+  "no": 64,
+  "word": "Entrench",
+  "meaning": "Establish (an attitude, habit, or belief) so firmly that change is very difficult or unlikely.",
+  "syn1": "Establish",
+  "syn2": "Ensconce",
+  "syn3": "Embed",
+  "sentence": "A firmly entrenched evolutionary perspective guided the modernization plans of the newly empowered government services."
+ },
+ {
+  "no": 65,
+  "word": "Ephemeral",
+  "meaning": "Lasting for a very short time.",
+  "syn1": "Transient",
+  "syn2": "Fleeting",
+  "syn3": "Momentary",
+  "sentence": "Fashion designs are ephemeral with new designs ousting older ones regularly."
+ },
+ {
+  "no": 66,
+  "word": "Epitome",
+  "meaning": "A person or thing that is a perfect example of a particular quality or type.",
+  "syn1": "Embodiment",
+  "syn2": "Exemplar",
+  "syn3": "Personification",
+  "sentence": "She represented the epitome of cultivated elegance and cut a fine figure in her tailored habit and silk top hat."
+ },
+ {
+  "no": 67,
+  "word": "Epitomized",
+  "meaning": "Be a perfect example of.",
+  "syn1": "Embody",
+  "syn2": "Typify",
+  "syn3": "Exemplify",
+  "sentence": "His theme is epitomized in the earlier quotations."
+ },
+ {
+  "no": 68,
+  "word": "Equitable",
+  "meaning": "Fair and Impartial",
+  "syn1": "Unbiased",
+  "syn2": "Unprejudiced",
+  "syn3": "Egalitarian",
+  "sentence": "Equitable distribution of wealth has long been a false promise made by politicians to garner support."
+ },
+ {
+  "no": 69,
+  "word": "Escalate",
+  "meaning": "Increase rapidly; make or become more intense or serious.",
+  "syn1": "Surge",
+  "syn2": "Skyrocket",
+  "syn3": "Soar",
+  "sentence": "The quarrel escalated to a fight when one of the members attacked the other individual's integrity."
+ },
+ {
+  "no": 70,
+  "word": "Eschew",
+  "meaning": "Deliberately avoid using; abstain from.",
+  "syn1": "Forgo",
+  "syn2": "Shun",
+  "syn3": "Abjure",
+  "sentence": "A fair number of academics eschew the simple title \"professor\" and call themselves economists, astronomers, historians, philosophers."
+ },
+ {
+  "no": 71,
+  "word": "Evince",
+  "meaning": "Reveal the presence of a quality or feeling; indicate",
+  "syn1": "Show",
+  "syn2": "Exhibit",
+  "syn3": "Manifest",
+  "sentence": "In his work as a teacher, he had evinced a talent for drawing children's attention and focus to the subject matter and away from distractions."
+ },
+ {
+  "no": 72,
+  "word": "Exactitude",
+  "meaning": "The quality of being very accurate and careful.",
+  "syn1": "Precise",
+  "syn2": "Accurate",
+  "syn3": "Meticulousness",
+  "sentence": "When academic critics attempted to define magical realism with scholarly exactitude, they discovered that it was more powerful than precise."
+ },
+ {
+  "no": 73,
+  "word": "Exorbitant",
+  "meaning": "(Of a price or amount charged) unreasonably high.",
+  "syn1": "Unreasonable",
+  "syn2": "Extortionate",
+  "syn3": "Preposterous",
+  "sentence": "The bill for dinner was exorbitant."
+ },
+ {
+  "no": 74,
+  "word": "Expediency",
+  "meaning": "The quality of being convenient and practical despite possibly being improper or immoral.",
+  "syn1": "Convenience",
+  "syn2": "Pragmatism",
+  "syn3": "Utility",
+  "sentence": "They seem to be basing their decisions on expediency rather than logic and common sense."
+ },
+ {
+  "no": 75,
+  "word": "Extemporaneous",
+  "meaning": "Spoken or done without preparation.",
+  "syn1": "Impromptu",
+  "syn2": "Spontaneous",
+  "syn3": "Improvised",
+  "sentence": "He made some extemporaneous remarks before the award ceremony."
+ },
+ {
+  "no": 76,
+  "word": "Extraneous",
+  "meaning": "Irrelevant or unrelated to the subject being dealt with.",
+  "syn1": "Immaterial",
+  "syn2": "Unrelated",
+  "syn3": "Unconnected",
+  "sentence": "Obviously, some degree of packaging is necessary to transport and protect the products we need, but all too often manufacturers add extraneous wrappers over wrappers and layers of unnecessary plastic."
+ },
+ {
+  "no": 77,
+  "word": "Extrapolate",
+  "meaning": "Extend the application of (a method or conclusion) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable",
+  "syn1": "Assume",
+  "syn2": "Conclude",
+  "syn3": "Envision",
+  "sentence": "We can extrapolate from past economic recessions the probable course of the current one."
+ },
+ {
+  "no": 78,
+  "word": "Facetious",
+  "meaning": "Trying to appear funny or clever when it's not appropriate, or when it would be better to be serious.",
+  "syn1": "Flippant",
+  "syn2": "Frivolous",
+  "syn3": "Jocular",
+  "sentence": "I make so much money that we never have to worry – I'm being facetious."
+ },
+ {
+  "no": 79,
+  "word": "Facile",
+  "meaning": "Ignoring the true complexities of an issue; superficial.",
+  "syn1": "Superficial",
+  "syn2": "Simplistic",
+  "syn3": "Glib",
+  "sentence": "Reformers should avoid facile assumptions about what the public wants and will accept."
+ },
+ {
+  "no": 80,
+  "word": "Fecundity",
+  "meaning": "The ability to produce an abundance of offspring or new growth; the ability to produce many new ideas.",
+  "syn1": "Fertility",
+  "syn2": "Prolificacy",
+  "syn3": "Fruitfulness",
+  "sentence": "The fecundity of Elizabethan language was an extraordinary phenomenon produced by an extraordinary society."
+ },
+ {
+  "no": 81,
+  "word": "Festoons",
+  "meaning": "A chain or garland of flowers, leaves, or ribbons, hung in a curve as a decoration.",
+  "syn1": "Swathe",
+  "syn2": "Wreath",
+  "syn3": "Chaplet",
+  "sentence": "During festivals every house has its own festoons of decorations."
+ },
+ {
+  "no": 82,
+  "word": "Fraudulent",
+  "meaning": "Obtained, done by, or involving deception, especially criminal deception.",
+  "syn1": "Dishonest",
+  "syn2": "Swindling",
+  "syn3": "Corrupt",
+  "sentence": "They faced accusations that they had been making fraudulent claims in housing benefit and income support."
+ },
+ {
+  "no": 83,
+  "word": "Gratification",
+  "meaning": "Pleasure, especially when gained from the satisfaction of a desire.",
+  "syn1": "Indulgence",
+  "syn2": "Satisfaction",
+  "syn3": "Appeasement",
+  "sentence": "The real objective of mentors is to teach mentees delayed gratification, that key trait for adult success."
+ },
+ {
+  "no": 84,
+  "word": "Gravitas",
+  "meaning": "Dignity, seriousness, or solemnity of manner.",
+  "syn1": "Solemnity",
+  "syn2": "Decorum",
+  "syn3": "Sobriety",
+  "sentence": "The new leader has an air of gravitas that commands respect."
+ },
+ {
+  "no": 85,
+  "word": "Hampered",
+  "meaning": "Hinder or impede the movement or progress of.",
+  "syn1": "Obstruct",
+  "syn2": "Thwart",
+  "syn3": "Curb",
+  "sentence": "Fierce storms have been hampering rescue efforts and there is now little chance of finding more survivors."
+ },
+ {
+  "no": 86,
+  "word": "Harbinger",
+  "meaning": "A person or thing that announces or signals the approach of another.",
+  "syn1": "Herald",
+  "syn2": "Prelude",
+  "syn3": "Precursor",
+  "sentence": "He scored the winner on his debut, a harbinger of things to come."
+ },
+ {
+  "no": 87,
+  "word": "Hesitant",
+  "meaning": "Tentative, unsure, or slow in acting or speaking.",
+  "syn1": "Uncertain",
+  "syn2": "Dubious",
+  "syn3": "Reluctant",
+  "sentence": "Based on his current Mock test performances, Rahul was hesitant about whether he should attempt the SAT exam in the upcoming month."
+ },
+ {
+  "no": 88,
+  "word": "Heterogeneous",
+  "meaning": "Diverse in character or content.",
+  "syn1": "Diverse",
+  "syn2": "Varied",
+  "syn3": "Assorted",
+  "sentence": "At the country's founding, most political observers believed that India was too heterogeneous and unwieldy to hold together."
+ },
+ {
+  "no": 89,
+  "word": "Hew Out",
+  "meaning": "To carve out, or cut out a form, or to make something hollow by using heavy cutting tools such as an axe; alternate meaning is to adhere to",
+  "syn1": "Teardown",
+  "syn2": "Raze",
+  "syn3": "Chop Out",
+  "sentence": "He laboriously hewed trees to procure wood to build a log cabin."
+ },
+ {
+  "no": 90,
+  "word": "Idiosyncratic",
+  "meaning": "Peculiar or individualistic",
+  "syn1": "Distinctive",
+  "syn2": "Unique",
+  "syn3": "Specific",
+  "sentence": "Guy Ritchie has a very idiosyncratic style of filmmaking that results in a constant sense of action while having multiple layers to the story."
+ },
+ {
+  "no": 91,
+  "word": "Illusory",
+  "meaning": "Based on illusion; not real",
+  "syn1": "Delusory",
+  "syn2": "Imaginary",
+  "syn3": "Fanciful",
+  "sentence": "The hopes of a quick conquest of Ukraine by the Russians proved to be illusory as it has been years since the conflict began and there is still no end in sight."
+ },
+ {
+  "no": 92,
+  "word": "Immutable",
+  "meaning": "Unchanging over time or unable to be changed.",
+  "syn1": "Fixed",
+  "syn2": "Unyielding",
+  "syn3": "Entrenched",
+  "sentence": "This isn't merely philosophical quibbling but an economic reality as immutable as gravity."
+ },
+ {
+  "no": 93,
+  "word": "Imperceptible",
+  "meaning": "So slight, gradual, or subtle as not to be perceived.",
+  "syn1": "Unnoticeable",
+  "syn2": "Unapparent",
+  "syn3": "Impalpable",
+  "sentence": "Looking at video footage from the inside of the train, the moment of derailment is almost imperceptible in the front of the car."
+ },
+ {
+  "no": 94,
+  "word": "Impugn",
+  "meaning": "Dispute the truth, validity, or honesty of (a statement or motive); call into question.",
+  "syn1": "Challenge",
+  "syn2": "Dispute",
+  "syn3": "Impeach",
+  "sentence": "Campaigns that are trailing in the polls often impugn them, of course, but Biden aides cite reasons for their skepticism."
+ },
+ {
+  "no": 95,
+  "word": "Incongruous",
+  "meaning": "Not in harmony or keeping with the surroundings or other aspects of something.",
+  "syn1": "Unsuited",
+  "syn2": "Discordant",
+  "syn3": "Incompatible",
+  "sentence": "The new office building with its modern designs looked incongruous in this quaint little town."
+ },
+ {
+  "no": 96,
+  "word": "Indecipherable",
+  "meaning": "Not able to be read or understood.",
+  "syn1": "Illegible",
+  "syn2": "Unreadable",
+  "syn3": "Indistinguishable",
+  "sentence": "These five books are some of the most frequently recommended, and won't inundate you with indecipherable financial jargon or put you to sleep."
+ },
+ {
+  "no": 97,
+  "word": "Indices",
+  "meaning": "Index, sign, clue, or indicator.",
+  "syn1": "Guide",
+  "syn2": "Indicate",
+  "syn3": "Hint",
+  "sentence": "Finally, some applications of the proposed indices will be presented and discussed."
+ },
+ {
+  "no": 98,
+  "word": "Indisputable",
+  "meaning": "Unable to be challenged or denied.",
+  "syn1": "Unarguable",
+  "syn2": "Undeniable",
+  "syn3": "Irrefutable",
+  "sentence": "Although their treachery was irrefutable, the authorities thought it wiser not to prosecute."
+ },
+ {
+  "no": 99,
+  "word": "Inducement",
+  "meaning": "Succeed in persuading or leading (someone) to do something; give rise to",
+  "syn1": "Convince",
+  "syn2": "Influence",
+  "syn3": "Cause",
+  "sentence": "Lack of proper care and love in early childhood can induce criminal behavior in young people."
+ },
+ {
+  "no": 100,
+  "word": "Inducement",
+  "meaning": "A thing that persuades or leads someone to do something.",
+  "syn1": "Incentive",
+  "syn2": "Attraction",
+  "syn3": "Temptation",
+  "sentence": "Employees were offered a bonus as an inducement to finish the project on schedule."
+ },
+ {
+  "no": 101,
+  "word": "Ineluctable",
+  "meaning": "Unable to be resisted or avoided",
+  "syn1": "Inevitable",
+  "syn2": "Unavoidable",
+  "syn3": "Ineludible",
+  "sentence": "The advent of artificial intelligence is ineluctable."
+ },
+ {
+  "no": 102,
+  "word": "Inexplicable",
+  "meaning": "Unable to be explained or accounted for.",
+  "syn1": "Unaccountable",
+  "syn2": "Unexplainable",
+  "syn3": "Incomprehensible",
+  "sentence": "The book became a hit thanks to Singh's gift for explaining the inexplicable."
+ },
+ {
+  "no": 103,
+  "word": "Inextricable",
+  "meaning": "Impossible to disentangle or separate.",
+  "syn1": "Inseparable",
+  "syn2": "Entangled",
+  "syn3": "Indivisible",
+  "sentence": "In a capitalist economy, sport and money are inextricably linked."
+ },
+ {
+  "no": 104,
+  "word": "Ingenious",
+  "meaning": "(Of a person) clever, original, and inventive.",
+  "syn1": "Inventive",
+  "syn2": "Creative",
+  "syn3": "Innovative",
+  "sentence": "My district is home to some of the most creative and ingenious people around."
+ },
+ {
+  "no": 105,
+  "word": "Innocuous",
+  "meaning": "Not harmful or offensive.",
+  "syn1": "Harmless",
+  "syn2": "Peaceful",
+  "syn3": "Safe",
+  "sentence": "The innocuous appearance of the dictator belied his ruthless actions."
+ },
+ {
+  "no": 106,
+  "word": "Insular",
+  "meaning": "Ignorant of or uninterested in cultures, ideas, or peoples outside one's own experience.",
+  "syn1": "Limited",
+  "syn2": "Blinkered",
+  "syn3": "Restricted",
+  "sentence": "Their timidity is expressed in small casts, small theatrical ambition, and an insular small-mindedness."
+ },
+ {
+  "no": 107,
+  "word": "Insuperable",
+  "meaning": "Impossible to overcome.",
+  "syn1": "Insurmountable",
+  "syn2": "Unassailable",
+  "syn3": "Invincible",
+  "sentence": "The insuperable barriers to entry often result in monopolies never being challenged."
+ },
+ {
+  "no": 108,
+  "word": "Insurmountable",
+  "meaning": "Too great to be overcome",
+  "syn1": "Invincible",
+  "syn2": "Unconquerable",
+  "syn3": "Unassailable",
+  "sentence": "This small country is faced with an insurmountable debt."
+ },
+ {
+  "no": 109,
+  "word": "Intercede",
+  "meaning": "Intervene on behalf of another.",
+  "syn1": "Mediate",
+  "syn2": "Arbitrate",
+  "syn3": "Moderate",
+  "sentence": "Their argument probably would have become violent if I hadn't interceded."
+ },
+ {
+  "no": 110,
+  "word": "Interdependence",
+  "meaning": "The dependence of two or more people or things on each other.",
+  "syn1": "Association",
+  "syn2": "Attachment",
+  "syn3": "Correlation",
+  "sentence": "The world as a whole is best served by a uniting of its peoples and recognition of our mutual interdependence."
+ },
+ {
+  "no": 111,
+  "word": "Interdicted",
+  "meaning": "Prohibit or forbid (something).",
+  "syn1": "Ban",
+  "syn2": "Veto",
+  "syn3": "Proscribe",
+  "sentence": "Those people are interdicted at the border by Customs and Border Patrol."
+ },
+ {
+  "no": 112,
+  "word": "Interjection",
+  "meaning": "An abrupt remark, especially as an aside or interruption.",
+  "syn1": "Interposition",
+  "syn2": "Interpolation",
+  "syn3": "Interference",
+  "sentence": "The speech was interjected often by hecklers with shouts of displeasure at the points being spoken about."
+ },
+ {
+  "no": 113,
+  "word": "Intermediate",
+  "meaning": "Coming between two things in time, place, character etc.",
+  "syn1": "Interposed",
+  "syn2": "Intervening",
+  "syn3": "Median",
+  "sentence": "A panel of international experts was set up to intermediate between the two warring countries."
+ },
+ {
+  "no": 114,
+  "word": "Interspersed",
+  "meaning": "Scatter among or between other things",
+  "syn1": "Disperse",
+  "syn2": "Distribute",
+  "syn3": "Spread",
+  "sentence": "The priest's sermons were interspersed with theological questions and probabilities."
+ },
+ {
+  "no": 115,
+  "word": "Intricate",
+  "meaning": "Very complicated and detailed",
+  "syn1": "Elaborate",
+  "syn2": "Involuted",
+  "syn3": "Complex",
+  "sentence": "The intricate nature of the design on the curtain displayed a great level of craftsmanship."
+ },
+ {
+  "no": 116,
+  "word": "Invoke",
+  "meaning": "Call on (a deity or spirit) in prayer, as a witness, or for inspiration; cite or appeal to (someone or something) as an authority for an action or in support of an argument.",
+  "syn1": "Supplicate",
+  "syn2": "Adduce",
+  "syn3": "Implore",
+  "sentence": "Their sacred dance is performed to invoke ancient gods."
+ },
+ {
+  "no": 117,
+  "word": "Irrecoverable",
+  "meaning": "Not able to be recovered or remedied",
+  "syn1": "Unsalvageable",
+  "syn2": "Irredeemable",
+  "syn3": "Irretrievable",
+  "sentence": "On most relatively modern drives, zeroing the drive will render any data it contains permanently irrecoverable."
+ },
+ {
+  "no": 118,
+  "word": "Irrefutable",
+  "meaning": "Impossible to deny or disprove.",
+  "syn1": "Indisputable",
+  "syn2": "Undeniable",
+  "syn3": "Incontestable",
+  "sentence": "The logic of his case is impeccable and irrefutable."
+ },
+ {
+  "no": 119,
+  "word": "Irreproachable",
+  "meaning": "Beyond criticism; faultless",
+  "syn1": "Immaculate",
+  "syn2": "Impeccable",
+  "syn3": "Faultless",
+  "sentence": "A man of irreproachable behavior sets an example for others to follow suit."
+ },
+ {
+  "no": 120,
+  "word": "Jostle",
+  "meaning": "Push, elbow, or bump against (someone) roughly, typically in a crowd.",
+  "syn1": "Shove",
+  "syn2": "Thrust",
+  "syn3": "Hustle",
+  "sentence": "Raj jostled everyone out of the way as he rushed towards the playground on the sound of the bell."
+ },
+ {
+  "no": 121,
+  "word": "Juxtapose",
+  "meaning": "Place close together for contrasting effect",
+  "syn1": "Collocate",
+  "syn2": "Colligate",
+  "syn3": "Contrast",
+  "sentence": "Critics often juxtapose movies with the novels they have been adapted from while reviewing them."
+ },
+ {
+  "no": 122,
+  "word": "Loquacious",
+  "meaning": "Tending to talk a great deal; talkative.",
+  "syn1": "Garrulous",
+  "syn2": "Verbose",
+  "syn3": "Effusive",
+  "sentence": "Never one to leave a tale untold, the cheerfully loquacious Varma sent a voice memo the next day."
+ },
+ {
+  "no": 123,
+  "word": "Manifest",
+  "meaning": "Clear or obvious to the eye or mind.",
+  "syn1": "Apparent",
+  "syn2": "Evident",
+  "syn3": "Overt",
+  "sentence": "Post-traumatic stress can take time to manifest."
+ },
+ {
+  "no": 124,
+  "word": "Mediated",
+  "meaning": "Intervene in a dispute in order to bring about an agreement or reconciliation.",
+  "syn1": "Arbitrate",
+  "syn2": "Conciliate",
+  "syn3": "Liaise",
+  "sentence": "He is attempting to mediate a settlement between the company and the striking workers."
+ },
+ {
+  "no": 125,
+  "word": "Misconstrued",
+  "meaning": "Interpret wrongly",
+  "syn1": "Misconceive",
+  "syn2": "Misapprehend",
+  "syn3": "Misread",
+  "sentence": "What one says is often misconstrued if the listener does not have the same level of perception on the matter."
+ },
+ {
+  "no": 126,
+  "word": "Monetize",
+  "meaning": "Earn revenue from (an asset, business, etc.); convert into or express in the form of currency.",
+  "syn1": "Capitalize on",
+  "syn2": "Profit from",
+  "syn3": "Commercialize",
+  "sentence": "Social media platforms have extended monetization by selling individual user data to the highest bidder."
+ },
+ {
+  "no": 127,
+  "word": "Monetizing",
+  "meaning": "Earn revenue from (an asset, business, etc.).",
+  "syn1": "Devise",
+  "syn2": "Fabricate",
+  "syn3": "Provide",
+  "sentence": "Two years ago, the company launched a platform called Walmart Creator, an affiliate program that enables creators to monetize shoppable products."
+ },
+ {
+  "no": 128,
+  "word": "Myriad",
+  "meaning": "A countless or extremely great number of people or things.",
+  "syn1": "Multitude",
+  "syn2": "Droves",
+  "syn3": "Shedload",
+  "sentence": "Although the new government resolved a few obvious issues, there was a myriad of problems to which the government had no solutions."
+ },
+ {
+  "no": 129,
+  "word": "Nebulous",
+  "meaning": "In the form of a cloud or haze; vague or ill defined",
+  "syn1": "Indeterminate",
+  "syn2": "Ambiguous",
+  "syn3": "Blurred",
+  "sentence": "Concepts like love, need and trust are nebulous in nature and ones many are uncomfortable with."
+ },
+ {
+  "no": 130,
+  "word": "Noxious",
+  "meaning": "Harmful, poisonous, or very unpleasant.",
+  "syn1": "Toxic",
+  "syn2": "Deadly",
+  "syn3": "Virulent",
+  "sentence": "Mixing bleach and ammonia can cause noxious fumes that can seriously harm you."
+ },
+ {
+  "no": 131,
+  "word": "Obviate",
+  "meaning": "Remove (a need or difficulty).",
+  "syn1": "Eliminate",
+  "syn2": "Avoid",
+  "syn3": "Avert",
+  "sentence": "The new medical treatment obviates the need for surgery."
+ },
+ {
+  "no": 132,
+  "word": "Outstrip",
+  "meaning": "Move faster than and overtake (someone else); exceed.",
+  "syn1": "Surpass",
+  "syn2": "Eclipse",
+  "syn3": "Outpace",
+  "sentence": "Credit card complaints outstrip all other bank-related grievances."
+ },
+ {
+  "no": 133,
+  "word": "Palpable",
+  "meaning": "(Of a feeling or atmosphere) so intense as to seem almost tangible.",
+  "syn1": "Perceptible",
+  "syn2": "Noticible",
+  "syn3": "Visible",
+  "sentence": "With a smile rarely far from his lips, his sense of fun is palpable."
+ },
+ {
+  "no": 134,
+  "word": "Paradigmatic",
+  "meaning": "Serving as a typical example of something.",
+  "syn1": "Exemplary",
+  "syn2": "Quintessential",
+  "syn3": "Archetypal",
+  "sentence": "Their great academic success was paraded as paradigmatic."
+ },
+ {
+  "no": 135,
+  "word": "Paucity",
+  "meaning": "The presence of something in only small or insufficient quantities or amounts.",
+  "syn1": "Scarcity",
+  "syn2": "Insufficiency",
+  "syn3": "Dearth",
+  "sentence": "The paucity of medical supplies led to the death of many men in the battlefield."
+ },
+ {
+  "no": 136,
+  "word": "Percolate",
+  "meaning": "Filter gradually through a porous surface or substance.",
+  "syn1": "Drain",
+  "syn2": "Trickle",
+  "syn3": "Leach",
+  "sentence": "Ideas inevitably percolate from one industry to another."
+ },
+ {
+  "no": 137,
+  "word": "Permeate",
+  "meaning": "Spread throughout",
+  "syn1": "Pervade",
+  "syn2": "Perfuse",
+  "syn3": "Saturate",
+  "sentence": "A change in the attitude at the top management levels of the institution will permeate through the system."
+ },
+ {
+  "no": 138,
+  "word": "Pernicious",
+  "meaning": "Highly injurious or destructive: tending to a fatal issue: deadly.",
+  "syn1": "Harmful",
+  "syn2": "Damaging",
+  "syn3": "Detrimental",
+  "sentence": "At its most pernicious, paper entrepreneurialism involves little more than imposing losses on others for the sake of short-term profits for the firm."
+ },
+ {
+  "no": 139,
+  "word": "Pertinent",
+  "meaning": "Relevant or applicable to a particular matter; apposite.",
+  "syn1": "Relevant",
+  "syn2": "Appropriate",
+  "syn3": "Germane",
+  "sentence": "Why scour the contents of multiple websites when AI can provide the most pertinent information in a few seconds?"
+ },
+ {
+  "no": 140,
+  "word": "Pessimistic",
+  "meaning": "Tending to see the worst aspect of things",
+  "syn1": "Cynical",
+  "syn2": "Despondent",
+  "syn3": "Despairing",
+  "sentence": "Investment analysts are extremely pessimistic about the economic future of the nation."
+ },
+ {
+  "no": 141,
+  "word": "Placate",
+  "meaning": "Make someone less angry and hostile",
+  "syn1": "Appease",
+  "syn2": "Conciliate",
+  "syn3": "Soothe",
+  "sentence": "The statement released by the CEO did little to placate the investors."
+ },
+ {
+  "no": 142,
+  "word": "Precedents",
+  "meaning": "An earlier event or action that is regarded as an example or guide to be considered in subsequent similar circumstances.",
+  "syn1": "Model",
+  "syn2": "Standard",
+  "syn3": "Guide",
+  "sentence": "The ruling set a precedent for future cases of this nature."
+ },
+ {
+  "no": 143,
+  "word": "Precipitating",
+  "meaning": "Cause (an event or situation, typically one that is undesirable) to happen suddenly, unexpectedly, or prematurely.",
+  "syn1": "Bring about",
+  "syn2": "Cause to",
+  "syn3": "Trigger",
+  "sentence": "An invasion would certainly precipitate a political crisis."
+ },
+ {
+  "no": 144,
+  "word": "Preclude",
+  "meaning": "Prevent from happening; make impossible.",
+  "syn1": "Prohibit",
+  "syn2": "Block",
+  "syn3": "Bar",
+  "sentence": "While training his protege, the trainer tries to preclude any possibility of a misunderstanding."
+ },
+ {
+  "no": 145,
+  "word": "Predicated",
+  "meaning": "Found or base something on",
+  "syn1": "Establish",
+  "syn2": "Premise",
+  "syn3": "Build",
+  "sentence": "She has predicated her theory on recent findings by other astronomers."
+ },
+ {
+  "no": 146,
+  "word": "Prefiguring",
+  "meaning": "Be an early indication or version of (something).",
+  "syn1": "Foreshadow",
+  "syn2": "Bode",
+  "syn3": "Foretoken",
+  "sentence": "This sort of typology served as a prefiguring or an anticipation of things to come."
+ },
+ {
+  "no": 147,
+  "word": "Presage",
+  "meaning": "Be a sign or warning of (an imminent event, typically an unwelcome one).",
+  "syn1": "Foreshadow",
+  "syn2": "Foretell",
+  "syn3": "Augur",
+  "sentence": "Many investors are worried that the current slowdown could presage another recession."
+ },
+ {
+  "no": 148,
+  "word": "Presuppose",
+  "meaning": "Require as a precondition of possibility or coherence.",
+  "syn1": "Entail",
+  "syn2": "Necessitate",
+  "syn3": "Involve",
+  "sentence": "The rule presupposes a need to restrict student access to the library."
+ },
+ {
+  "no": 149,
+  "word": "Pretentious",
+  "meaning": "Expressive or affected, unwarranted or exaggerated importance, worth, or stature.",
+  "syn1": "Ostentatious",
+  "syn2": "Pompous",
+  "syn3": "Showy",
+  "sentence": "The little inn was cleanlier and better kept than many of the more pretentious ones."
+ },
+ {
+  "no": 150,
+  "word": "Prevalent",
+  "meaning": "Widespread in a particular area or a particular time",
+  "syn1": "Prevailing",
+  "syn2": "Pervasive",
+  "syn3": "Predominant",
+  "sentence": "The distribution of engineers amongst many professions has exploded the myth prevalent in society that people always work in the same field as they receive their formal education in."
+ },
+ {
+  "no": 151,
+  "word": "Pristine",
+  "meaning": "In its original condition; unspoilt.",
+  "syn1": "Immaculate",
+  "syn2": "Perfect",
+  "syn3": "Unspoiled",
+  "sentence": "My office is a mess but her office is always pristine."
+ },
+ {
+  "no": 152,
+  "word": "Proclamation",
+  "meaning": "A public or official announcement dealing with a matter of great importance.",
+  "syn1": "Decree",
+  "syn2": "Edict",
+  "syn3": "Declaration",
+  "sentence": "Afterward, from a balcony at the palace, the proclamation will be read to the public."
+ },
+ {
+  "no": 153,
+  "word": "Profusion",
+  "meaning": "An abundance or large quantity of something.",
+  "syn1": "Plenitude",
+  "syn2": "Abundance",
+  "syn3": "Plethora",
+  "sentence": "Viewing the books in the show, one might rue the loss of color in favor of a greater profusion of plates."
+ },
+ {
+  "no": 154,
+  "word": "Prohibitive",
+  "meaning": "Forbidding or restricting something.",
+  "syn1": "Restraining",
+  "syn2": "Repressive",
+  "syn3": "Inhibitory",
+  "sentence": "The new policies are cost prohibitive and require time and patience."
+ },
+ {
+  "no": 155,
+  "word": "Proliferate",
+  "meaning": "Increase rapidly in number",
+  "syn1": "Burgeon",
+  "syn2": "Multiply",
+  "syn3": "Snowball",
+  "sentence": "The use of online payments has proliferated all across the country in the last two years."
+ },
+ {
+  "no": 156,
+  "word": "Promulgated",
+  "meaning": "Promote or make widely known (an idea or cause).",
+  "syn1": "Publicize",
+  "syn2": "Propogate",
+  "syn3": "Disseminate",
+  "sentence": "Her ideas have been widely promulgated on the Internet."
+ },
+ {
+  "no": 157,
+  "word": "Protracted",
+  "meaning": "Lasting for a long time or longer than expected or usual.",
+  "syn1": "Prolonged",
+  "syn2": "Extended",
+  "syn3": "Sustained",
+  "sentence": "While this is not a major factor during the acute phase of the disease, it will contribute to the disease process in more protracted cases."
+ },
+ {
+  "no": 158,
+  "word": "Prudence",
+  "meaning": "The quality of being cautious",
+  "syn1": "Sagacity",
+  "syn2": "Shrewdness",
+  "syn3": "Circumspect",
+  "sentence": "The student approached the SAT exam with great prudence as she knew that the level of difficulty of questions could be high."
+ },
+ {
+  "no": 159,
+  "word": "Prudent",
+  "meaning": "Acting with or showing care and thought for the future.",
+  "syn1": "Judicious",
+  "syn2": "Sagacious",
+  "syn3": "Advisable",
+  "sentence": "An endless war is not always the most moral or the most prudent course of action."
+ },
+ {
+  "no": 160,
+  "word": "Putative",
+  "meaning": "Commonly accepted or supposed.",
+  "syn1": "Assumed",
+  "syn2": "Accepted",
+  "syn3": "Presumptive",
+  "sentence": "The putative champions of liberty took up the cry of dissent only after it had become profitable and safe."
+ },
+ {
+  "no": 161,
+  "word": "Quintessential",
+  "meaning": "Representing the most perfect or typical example of a quality or class.",
+  "syn1": "Stereotypical",
+  "syn2": "Prototypical",
+  "syn3": "Conventional",
+  "sentence": "It is estimated that over one-third of sub-prime borrowers could have qualified for cheaper, conventional loans."
+ },
+ {
+  "no": 162,
+  "word": "Recalcitrant",
+  "meaning": "Having an obstinately uncooperative attitude towards authority or discipline.",
+  "syn1": "Uncooperative",
+  "syn2": "Intractable",
+  "syn3": "Refractory",
+  "sentence": "The manager worried that the recalcitrant employee would try to undermine his authority."
+ },
+ {
+  "no": 163,
+  "word": "Redundancy",
+  "meaning": "The state of being not or no longer needed or useful.",
+  "syn1": "Discharge",
+  "syn2": "Dismissal",
+  "syn3": "Lay-off",
+  "sentence": "The takeover is expected to result in over 1,000 redundancies."
+ },
+ {
+  "no": 164,
+  "word": "Register",
+  "meaning": "An official list or record of names or items; a particular part of the range of a voice or instrument.",
+  "syn1": "Catalogue",
+  "syn2": "Roster",
+  "syn3": "Octaves",
+  "sentence": "The club maintained a membership register of all members ever admitted; The boy sang in a register that was both harmonious and penetrative."
+ },
+ {
+  "no": 165,
+  "word": "Repudiate",
+  "meaning": "Refuse to accept; deny the truth or validity of; reject",
+  "syn1": "Refute",
+  "syn2": "Negate",
+  "syn3": "Rebuff",
+  "sentence": "The judge used his position to repudiate the charges levied against him."
+ },
+ {
+  "no": 166,
+  "word": "Reverence",
+  "meaning": "Having deep respect for someone or something.",
+  "syn1": "Admiration",
+  "syn2": "Approbation",
+  "syn3": "Appreciation",
+  "sentence": "There will always be important people in our society but the ones that impact our soul are the ones that will always be revered."
+ },
+ {
+  "no": 167,
+  "word": "Sanguine",
+  "meaning": "Optimistic or positive, especially in an apparently bad or difficult situation.",
+  "syn1": "Optimistic",
+  "syn2": "Buoyant",
+  "syn3": "Hopeful",
+  "sentence": "He does not pretend to be sanguine about our prospects. History itself, he reminds us, provides few examples of cultures as debilitated as ours which were not destroyed by the very forces they set in motion."
+ },
+ {
+  "no": 168,
+  "word": "Scrupulous",
+  "meaning": "(Of a person or process) careful, thorough, and extremely attentive to details.",
+  "syn1": "Meticulous",
+  "syn2": "Diligent",
+  "syn3": "Assiduous",
+  "sentence": "The researchers carried out marking their observations with a scrupulous attention to detail to prevent capture of any faulty data."
+ },
+ {
+  "no": 169,
+  "word": "Scrutinized",
+  "meaning": "To examine or inspect closely and thoroughly.",
+  "syn1": "Peruse",
+  "syn2": "Investigate",
+  "syn3": "Scan",
+  "sentence": "The tutor scrutinized the students' performance to identify areas for improvement."
+ },
+ {
+  "no": 170,
+  "word": "Sequester",
+  "meaning": "Isolate or hide away.",
+  "syn1": "Seclude",
+  "syn2": "Insulate",
+  "syn3": "Detach",
+  "sentence": "The jury was sequestered until a verdict was reached."
+ },
+ {
+  "no": 171,
+  "word": "Sighted",
+  "meaning": "Having the ability to see",
+  "syn1": "Observe",
+  "syn2": "Glimpse",
+  "syn3": "Behold",
+  "sentence": "After being stranded for many months at sea, the crew finally sighted land."
+ },
+ {
+  "no": 172,
+  "word": "Spawn",
+  "meaning": "Produce or generate a large number of; (of a fish, frog, mollusc, crustacean, etc.) release or deposit eggs.",
+  "syn1": "Generate",
+  "syn2": "Initiate",
+  "syn3": "Precipitate",
+  "sentence": "The new economic freedom has spawned hundreds of new small businesses."
+ },
+ {
+  "no": 173,
+  "word": "Sporadic",
+  "meaning": "Occurring at irregular intervals or only in a few places; scattered or isolated.",
+  "syn1": "Occasional",
+  "syn2": "Periodical",
+  "syn3": "Intermittent",
+  "sentence": "The sporadic nature of the India-Pakistan cricket games ensures a high attendance on every single occasion."
+ },
+ {
+  "no": 174,
+  "word": "Spurious",
+  "meaning": "Not being what it purports to be; false or fake",
+  "syn1": "Fraudulent",
+  "syn2": "Counterfeit",
+  "syn3": "Fallacious",
+  "sentence": "In some situations, spurious images are brought together to propel a propaganda."
+ },
+ {
+  "no": 175,
+  "word": "Stalwart",
+  "meaning": "Loyal, reliable, and hard-working.",
+  "syn1": "Staunch",
+  "syn2": "Faithful",
+  "syn3": "Devoted",
+  "sentence": "The manager has been a stalwart supporter of his employees."
+ },
+ {
+  "no": 176,
+  "word": "Stipulate",
+  "meaning": "Demand or specify a requirement, typically as part of an agreement",
+  "syn1": "Specify",
+  "syn2": "Impose",
+  "syn3": "Lay down",
+  "sentence": "The Treaty of Versailles stipulated that Germany had to pay $442 billion as compensation for war damages."
+ },
+ {
+  "no": 177,
+  "word": "Stymied",
+  "meaning": "Prevent or hinder the progress of.",
+  "syn1": "Impede",
+  "syn2": "Inhibit",
+  "syn3": "Obstruct",
+  "sentence": "An unexpected snowstorm stymied travelers' plans."
+ },
+ {
+  "no": 178,
+  "word": "Substantiate",
+  "meaning": "Provide evidence to support or prove the truth of.",
+  "syn1": "Validate",
+  "syn2": "Vindicate",
+  "syn3": "Corroborate",
+  "sentence": "No evidence was found to substantiate the accusations."
+ },
+ {
+  "no": 179,
+  "word": "Subtlety",
+  "meaning": "The quality or state of being subtle.",
+  "syn1": "Delicacy",
+  "syn2": "Softness",
+  "syn3": "Understatement",
+  "sentence": "A little more subtlety might have helped you get what you wanted."
+ },
+ {
+  "no": 180,
+  "word": "Subversive",
+  "meaning": "Seeking or intended to subvert an established system or institution.",
+  "syn1": "Disruptive",
+  "syn2": "Inflammatory",
+  "syn3": "Insurgent",
+  "sentence": "Only statements and conversations considered to be subversive or dangerous attracted the attention of those in authority and came to be recorded via judicial processes."
+ },
+ {
+  "no": 181,
+  "word": "Superfluous",
+  "meaning": "Unnecessary, especially through being more than enough",
+  "syn1": "Surplus",
+  "syn2": "Inessential",
+  "syn3": "Redundant",
+  "sentence": "With the advent of robotics and artificial intelligence, parents are worried that they will become superfluous, with the robots nursing and playing with the children."
+ },
+ {
+  "no": 182,
+  "word": "Superseded",
+  "meaning": "Take the place of (a person or thing previously in authority or use).",
+  "syn1": "Supplant",
+  "syn2": "Replace",
+  "syn3": "Displace",
+  "sentence": "The prevalent view was that the concept of the equality of states as a fundamental principle of modern international law should be superseded."
+ },
+ {
+  "no": 183,
+  "word": "Supplant",
+  "meaning": "Supersede and replace",
+  "syn1": "Oust",
+  "syn2": "Depose",
+  "syn3": "Overthrow",
+  "sentence": "The biggest mode of dissemination of information, the television, has been supplanted by the internet in the last decade."
+ },
+ {
+  "no": 184,
+  "word": "Supposition",
+  "meaning": "A belief held without proof or certain knowledge; an assumption or hypothesis.",
+  "syn1": "Notion",
+  "syn2": "Conjecture",
+  "syn3": "Speculation",
+  "sentence": "The police are working on the supposition that he has left the country."
+ },
+ {
+  "no": 185,
+  "word": "Sway",
+  "meaning": "Control or Influence",
+  "syn1": "Command",
+  "syn2": "Authority",
+  "syn3": "Ascendency",
+  "sentence": "The politician, though not elected, held great sway over the party's policies regarding a gamut of affairs."
+ },
+ {
+  "no": 186,
+  "word": "Tenuous",
+  "meaning": "Very weak or slight.",
+  "syn1": "Fragile",
+  "syn2": "Insubstantial",
+  "syn3": "Flimsy",
+  "sentence": "The connection between the two events was tenuous at best, with no solid evidence to link them."
+ },
+ {
+  "no": 187,
+  "word": "Thwarted",
+  "meaning": "Prevent (someone) from accomplishing something.",
+  "syn1": "Foil",
+  "syn2": "Frustrate",
+  "syn3": "Derail",
+  "sentence": "The government had been able to thwart all attempts by opposition leaders to form new parties."
+ },
+ {
+  "no": 188,
+  "word": "Transcend",
+  "meaning": "Be or go beyond the range or limits of (a field of activity or conceptual sphere).",
+  "syn1": "Surpass",
+  "syn2": "Trump",
+  "syn3": "Exceed",
+  "sentence": "The best films are those which transcend national or cultural barriers."
+ },
+ {
+  "no": 189,
+  "word": "Transpose",
+  "meaning": "Cause (two or more things) to exchange places.",
+  "syn1": "Transfer",
+  "syn2": "Interchange",
+  "syn3": "Invert",
+  "sentence": "In their latest production they have reworked \"King Lear\", transposing it to pre-colonial Africa."
+ },
+ {
+  "no": 190,
+  "word": "Ubiquitous",
+  "meaning": "Present, appearing, or found everywhere.",
+  "syn1": "Omnipresent",
+  "syn2": "Universal",
+  "syn3": "Popular",
+  "sentence": "As with all new technologies, costs are expected to fall as the products become more ubiquitous."
+ },
+ {
+  "no": 191,
+  "word": "Unequivocal",
+  "meaning": "Leaving no doubt; Unambiguous",
+  "syn1": "Indubitable",
+  "syn2": "Incontrovertible",
+  "syn3": "Unmistakable",
+  "sentence": "The administration has given an unequivocal rejection to the request."
+ },
+ {
+  "no": 192,
+  "word": "Unpalatability",
+  "meaning": "Not palatable; unpleasant to the taste; disagreeable or unacceptable.",
+  "syn1": "Distasteful",
+  "syn2": "Horrible",
+  "syn3": "Unappetizing",
+  "sentence": "Pasta and honey are an unpalatable combination."
+ },
+ {
+  "no": 193,
+  "word": "Unprecedented",
+  "meaning": "Never done or known before",
+  "syn1": "Groundbreakin g",
+  "syn2": "Extraordinary",
+  "syn3": "Prodigious",
+  "sentence": "The war in Ukraine has caused unprecedented death and destruction in the country."
+ },
+ {
+  "no": 194,
+  "word": "Unsympathetic",
+  "meaning": "Not feeling, showing or expressing sympathy.",
+  "syn1": "Uncaring",
+  "syn2": "Unconcerned",
+  "syn3": "Indifferent",
+  "sentence": "Our appeal for a reprieve met with an unsympathetic response from the bank."
+ },
+ {
+  "no": 195,
+  "word": "Untenable",
+  "meaning": "(Especially of a position or view) not able to be maintained or defended against attack or objection.",
+  "syn1": "Indefensible",
+  "syn2": "Implausible",
+  "syn3": "Invalid",
+  "sentence": "Many environmental experts have determined that the rate at which we are polluting the environment is untenable and will soon make our planet uninhabitable."
+ },
+ {
+  "no": 196,
+  "word": "Unyielding",
+  "meaning": "Not giving way to pressure (Material or Structure); unlikely to be swayed (Of a person)",
+  "syn1": "Inflexible",
+  "syn2": "Inelastic",
+  "syn3": "Resolute",
+  "sentence": "Now with China mired in an unyielding property crisis, policymakers want to revamp aging urban neighborhoods to kick-start construction and spur local economies."
+ },
+ {
+  "no": 197,
+  "word": "Vacillating",
+  "meaning": "Wavering between different opinions or actions",
+  "syn1": "Fluctuate",
+  "syn2": "Oscillate",
+  "syn3": "Teetering",
+  "sentence": "When one goes on Netflix to start watching a new show, one often ends up spending a lot of time vacillating among the myriad of options before picking one to start with."
+ },
+ {
+  "no": 198,
+  "word": "Vacuity",
+  "meaning": "Lack of thought or intelligence",
+  "syn1": "Vacancy",
+  "syn2": "Inanity",
+  "syn3": "Stupidity",
+  "sentence": "The intense debate on the subject convinced the proponent of the vacuity of his argument."
+ },
+ {
+  "no": 199,
+  "word": "Verdant",
+  "meaning": "Green with grass or other rich vegetation.",
+  "syn1": "Grassy",
+  "syn2": "Flourishing",
+  "syn3": "Teeming",
+  "sentence": "The colorful and verdant front gardens in front of homes is now a thing of the past."
+ },
+ {
+  "no": 200,
+  "word": "Vignette",
+  "meaning": "A brief evocative description, account, or episode.",
+  "syn1": "Potrait",
+  "syn2": "Impression",
+  "syn3": "Cameo",
+  "sentence": "Probably the most charming movie of the year, The Truffle Hunters unfolds as a series of vignettes documenting the lives of several older men and their dogs."
+ },
+ {
+  "no": 201,
+  "word": "Vindicate",
+  "meaning": "Clear someone of blame or suspicion; show or prove to be right, reasonable, or justified",
+  "syn1": "Redeem",
+  "syn2": "Exonerate",
+  "syn3": "Acquit",
+  "sentence": "The decision to change the logo of the company has been vindicated by the fact that the brand recognition has soared in the past year."
+ },
+ {
+  "no": 202,
+  "word": "Virtuosity",
+  "meaning": "Great skill in music or another artistic pursuit.",
+  "syn1": "Mastery",
+  "syn2": "Prowess",
+  "syn3": "Aptitude",
+  "sentence": "Their playing showed an uncanny responsiveness and unity of ensemble, and a brilliant but self-effacing virtuosity in the service of profound musicality."
+ },
+ {
+  "no": 203,
+  "word": "Delirious",
+  "meaning": "In a disturbed state of mind, often due to illness or excitement; unable to think clearly.",
+  "syn1": "Incoherent",
+  "syn2": "Frenzied",
+  "syn3": "Irrational",
+  "sentence": "The patient was delirious with fever and needed immediate care."
+ },
+ {
+  "no": 204,
+  "word": "Destitute",
+  "meaning": "Lacking the basic necessities of life; extremely poor.",
+  "syn1": "Impoverished",
+  "syn2": "Penniless",
+  "syn3": "Needy",
+  "sentence": "The charity provides food and shelter for destitute families."
+ },
+ {
+  "no": 205,
+  "word": "Enumerate",
+  "meaning": "To mention things one by one.",
+  "syn1": "List",
+  "syn2": "Itemize",
+  "syn3": "Specify",
+  "sentence": "The teacher asked the students to enumerate the causes of the French Revolution."
+ },
+ {
+  "no": 206,
+  "word": "Abate",
+  "meaning": "Become less intense or widespread.",
+  "syn1": "Subside",
+  "syn2": "Diminish",
+  "syn3": "Dwindle",
+  "sentence": "At about six, as the heat abated, people began to crowd the streets and marketplaces, and to fill the cafés."
+ },
+ {
+  "no": 207,
+  "word": "Abound",
+  "meaning": "Exist in large numbers or amounts.",
+  "syn1": "Proliferate",
+  "syn2": "Thrive",
+  "syn3": "Flourish",
+  "sentence": "Adventure abounds here, both on land and in the water."
+ },
+ {
+  "no": 208,
+  "word": "Acclaim",
+  "meaning": "Praise enthusiastically and publicly.",
+  "syn1": "Commend",
+  "syn2": "Applaud",
+  "syn3": "Compliment",
+  "sentence": "He starred in the first festival in 1995, helping to win it national acclaim."
+ },
+ {
+  "no": 209,
+  "word": "Acquit",
+  "meaning": "Free (someone) from a criminal charge by a verdict of not guilty.",
+  "syn1": "Absolve",
+  "syn2": "Exonerate",
+  "syn3": "Release",
+  "sentence": "Two members of the group were acquitted for lack of evidence."
+ },
+ {
+  "no": 210,
+  "word": "Adorned",
+  "meaning": "Make more beautiful or attractive.",
+  "syn1": "Decorate",
+  "syn2": "Ornament",
+  "syn3": "Embellish",
+  "sentence": "The bride's hair was adorned with white flowers."
+ },
+ {
+  "no": 211,
+  "word": "Affirm",
+  "meaning": "State emphatically or publicly; offer (someone) emotional support or encouragement.",
+  "syn1": "Declare",
+  "syn2": "Assert",
+  "syn3": "Avow",
+  "sentence": "The Prime Minister affirmed the country's commitment to peace at the United Nations Conference."
+ },
+ {
+  "no": 212,
+  "word": "Aggravate",
+  "meaning": "Make (a problem, injury, or offence) worse or more serious.",
+  "syn1": "Exasperate",
+  "syn2": "Incense",
+  "syn3": "Antagonize",
+  "sentence": "A bad situation can be aggravated if the plan to deal with it is not well thought through."
+ },
+ {
+  "no": 213,
+  "word": "Amass",
+  "meaning": "Gather together or accumulate (a large amount or number of material or things) over a period of time.",
+  "syn1": "Assemble",
+  "syn2": "Stockpile",
+  "syn3": "Cumulate",
+  "sentence": "The song first surfaced across platforms in April, with one TikTok video amassing 7 million views."
+ },
+ {
+  "no": 214,
+  "word": "Ambivalent",
+  "meaning": "Having mixed feelings or contradictory ideas about something or someone.",
+  "syn1": "Equivocal",
+  "syn2": "Uncertain",
+  "syn3": "Inconclusive",
+  "sentence": "Americans are deeply ambivalent about their country's foreign policies."
+ },
+ {
+  "no": 215,
+  "word": "Arbitrary",
+  "meaning": "Based on random choice or personal whim.",
+  "syn1": "Capricious",
+  "syn2": "Erratic",
+  "syn3": "Whimsical",
+  "sentence": "Taking arbitrary decisions led to the downfall of the government."
+ },
+ {
+  "no": 216,
+  "word": "Arcane",
+  "meaning": "Understood by few; mysterious or secret.",
+  "syn1": "Concealed",
+  "syn2": "Covert",
+  "syn3": "Clandestine",
+  "sentence": "Modern conflict may be too complex for arcane forms of protest."
+ },
+ {
+  "no": 217,
+  "word": "Assertive",
+  "meaning": "Having or showing a confident and forceful personality.",
+  "syn1": "Self-confident",
+  "syn2": "Forceful",
+  "syn3": "Decisive",
+  "sentence": "If you want people to listen to your opinion, you will have to be more assertive."
+ },
+ {
+  "no": 218,
+  "word": "Authentic",
+  "meaning": "Of undisputed origin and not a copy; genuine.",
+  "syn1": "Genuine",
+  "syn2": "Actual",
+  "syn3": "Veritable",
+  "sentence": "He is in no doubt that the document is an authentic copy of the original."
+ },
+ {
+  "no": 219,
+  "word": "Autonomy",
+  "meaning": "Independence or freedom, as of the will or one's actions",
+  "syn1": "Liberty",
+  "syn2": "Emancipation",
+  "syn3": "Volition",
+  "sentence": "We live in a free society and our desire for freedom and autonomy is our universal right."
+ },
+ {
+  "no": 220,
+  "word": "Aversion",
+  "meaning": "A strong dislike or disinclination",
+  "syn1": "Disinclination",
+  "syn2": "Detestation",
+  "syn3": "Antipathy",
+  "sentence": "Many people have an aversion to insects."
+ },
+ {
+  "no": 221,
+  "word": "Collaborate",
+  "meaning": "Work jointly on an activity or project.",
+  "syn1": "Cooperate",
+  "syn2": "Unite",
+  "syn3": "Associate",
+  "sentence": "He was suspected of collaborating with the occupying army."
+ },
+ {
+  "no": 222,
+  "word": "Compelling",
+  "meaning": "Evoking interest, attention, or admiration in a powerfully irresistible way.",
+  "syn1": "Captivating",
+  "syn2": "Engrossing",
+  "syn3": "Gripping",
+  "sentence": "I had no compelling reason for not attending the meeting."
+ },
+ {
+  "no": 223,
+  "word": "Compromised",
+  "meaning": "To make a deal; To make vulnerable.",
+  "syn1": "Come to terms",
+  "syn2": "Concession",
+  "syn3": "Undermine",
+  "sentence": "The company was forced to compromise on the deal for the merger as they were compromised by a leak of sensitive internal information that was damaging to them."
+ },
+ {
+  "no": 224,
+  "word": "Concoct",
+  "meaning": "Make (a dish or meal) by combining various ingredients; create or devise (a story or plan).",
+  "syn1": "Assemble",
+  "syn2": "Devise",
+  "syn3": "Contrive",
+  "sentence": "He used to concoct excuses to get out of doing the work."
+ },
+ {
+  "no": 225,
+  "word": "Conflated",
+  "meaning": "Combine (two or more sets of information, texts, ideas, etc.) into one.",
+  "syn1": "Confound",
+  "syn2": "Confuse",
+  "syn3": "Mistake",
+  "sentence": "Many of the posts criticizing the agency conflated DEI programs with race- or gender-based hiring quotas, which are unlawful."
+ },
+ {
+  "no": 226,
+  "word": "Confounded",
+  "meaning": "Used for emphasis, especially to express anger or annoyance.",
+  "syn1": "Astonish",
+  "syn2": "Dumbfound",
+  "syn3": "Stagger",
+  "sentence": "I was completely confounded by this change in his behaviour."
+ },
+ {
+  "no": 227,
+  "word": "Consensus",
+  "meaning": "A general agreement.",
+  "syn1": "Agreement",
+  "syn2": "Harmony",
+  "syn3": "Concurrence",
+  "sentence": "There is a growing consensus that the current regime has failed."
+ },
+ {
+  "no": 228,
+  "word": "Conspicuous",
+  "meaning": "Clearly visible.",
+  "syn1": "Prominent",
+  "syn2": "Noticeable",
+  "syn3": "Obvious",
+  "sentence": "The large red flowers produced by the plant make it conspicuous."
+ },
+ {
+  "no": 229,
+  "word": "Contemporary",
+  "meaning": "Living or occurring at the same time.",
+  "syn1": "Concord Clear Peer",
+  "syn2": "Fellow",
+  "syn3": "Coeval",
+  "sentence": "Hitler was a contemporary of Mussolini."
+ },
+ {
+  "no": 230,
+  "word": "Continuity",
+  "meaning": "The unbroken and consistent existence or operation of something over time.",
+  "syn1": "Flow",
+  "syn2": "Progression",
+  "syn3": "Uninterrupted",
+  "sentence": "More funds are needed to ensure the continuity of our work."
+ },
+ {
+  "no": 231,
+  "word": "Convoluted",
+  "meaning": "Extremely complex and difficult to follow.",
+  "syn1": "Complicated",
+  "syn2": "Elaborate",
+  "syn3": "Intricate",
+  "sentence": "The convoluted nature of political debates often steers the focus away from the important issues at hand leading to no resolutions."
+ },
+ {
+  "no": 232,
+  "word": "Corpus",
+  "meaning": "A large set of texts which is considered to be representative of a language",
+  "syn1": "Collection",
+  "syn2": "Compilation",
+  "syn3": "Aggregation",
+  "sentence": "Three of the most explicable cases of illustrations of aggression were drawn from a large corpus of data made up of 500 school essays."
+ },
+ {
+  "no": 233,
+  "word": "Credible",
+  "meaning": "Able to be believed; convincing.",
+  "syn1": "Trustworthy",
+  "syn2": "Plausible",
+  "syn3": "Dependable",
+  "sentence": "In the absence of any credible evidence, the accusation was ignored."
+ },
+ {
+  "no": 234,
+  "word": "Cursory",
+  "meaning": "Hasty and therefore not thorough or detailed.",
+  "syn1": "Perfunctory",
+  "syn2": "Superficial",
+  "syn3": "Casual",
+  "sentence": "The mayor gave a cursory glance at the report."
+ },
+ {
+  "no": 235,
+  "word": "Curtail",
+  "meaning": "Reduce in extent or quantity; impose a restriction on.",
+  "syn1": "Reduce",
+  "syn2": "Shrink",
+  "syn3": "Diminish",
+  "sentence": "Economic liberalisation may curtail some forms of grand corruption but others may become easier."
+ },
+ {
+  "no": 236,
+  "word": "Decried",
+  "meaning": "Publicly denounce.",
+  "syn1": "Condemn",
+  "syn2": "Censure",
+  "syn3": "Criticize",
+  "sentence": "In her article, she decries the pollution of the environment by manufacturers."
+ },
+ {
+  "no": 237,
+  "word": "Designate",
+  "meaning": "Appoint (someone or something) to a specified office or post.",
+  "syn1": "Nominate",
+  "syn2": "Delegate",
+  "syn3": "Depute",
+  "sentence": "After the recent polls he was designated as the next prime minister of the country."
+ },
+ {
+  "no": 238,
+  "word": "Discreet",
+  "meaning": "Careful and prudent in one's speech or actions, especially in order to keep something confidential or to avoid embarrassment.",
+  "syn1": "Cautious",
+  "syn2": "Circumspect",
+  "syn3": "Wary",
+  "sentence": "The simple construction of this discreet cabinet won't get in the way of the rest of your decor."
+ },
+ {
+  "no": 239,
+  "word": "Discrete",
+  "meaning": "Individually separate and distinct.",
+  "syn1": "Detached",
+  "syn2": "Disjoined",
+  "syn3": "Disconnected",
+  "sentence": "Do remember that a word can have several discrete meanings."
+ },
+ {
+  "no": 240,
+  "word": "Disregarded",
+  "meaning": "Pay no attention to; ignore.",
+  "syn1": "Ignore",
+  "syn2": "Overlook",
+  "syn3": "Dismiss",
+  "sentence": "He disregarded my advice and took the boat out anyway."
+ },
+ {
+  "no": 241,
+  "word": "Dissipate",
+  "meaning": "Disappear or cause to disappear; waste or fritter away",
+  "syn1": "Vanish",
+  "syn2": "Dispense",
+  "syn3": "Squander",
+  "sentence": "The end of the strike did little to dissipate the anger of the public at the government."
+ },
+ {
+  "no": 242,
+  "word": "Efficacy",
+  "meaning": "The power to produce a desired result.",
+  "syn1": "Potency",
+  "syn2": "Effectiveness",
+  "syn3": "Productiveness",
+  "sentence": "The efficacy of the process is often questioned by those who do not completely understand it."
+ },
+ {
+  "no": 243,
+  "word": "Embark",
+  "meaning": "Begin a course of action; go on board a ship or aircraft.",
+  "syn1": "Commence",
+  "syn2": "Launch",
+  "syn3": "Initiate",
+  "sentence": "He embarked on a new career after Artificial Intelligence negated her old one."
+ },
+ {
+  "no": 244,
+  "word": "Endured",
+  "meaning": "Suffer (something painful or difficult) patiently; remain in existence; last.",
+  "syn1": "Undergo",
+  "syn2": "Live through",
+  "syn3": "Persist",
+  "sentence": "Just as the city of Delhi has endured through time so have its people endured through colonial domination."
+ },
+ {
+  "no": 245,
+  "word": "Enigma",
+  "meaning": "A person or thing that is mysterious or difficult to understand.",
+  "syn1": "Inscrutable",
+  "syn2": "Obscure",
+  "syn3": "Conundrum",
+  "sentence": "Despite the enigma of the singularity, the big bang theory is unquestionably one of the most successful ideas in the history of science."
+ },
+ {
+  "no": 246,
+  "word": "Entrust",
+  "meaning": "Assign the responsibility for doing something to (someone).",
+  "syn1": "Endow",
+  "syn2": "Vest",
+  "syn3": "Consign",
+  "sentence": "He didn't look like the sort of man you should entrust your luggage to."
+ },
+ {
+  "no": 247,
+  "word": "Exhaustive",
+  "meaning": "Including or considering all elements or aspects",
+  "syn1": "Comprehensive",
+  "syn2": "Thorough",
+  "syn3": "Extensive",
+  "sentence": "In high level team sports, teams conducted an exhaustive analysis of every game to improve themselves."
+ },
+ {
+  "no": 248,
+  "word": "Explicit",
+  "meaning": "Stated clearly and in detail, leaving no room for confusion or doubt.",
+  "syn1": "Obvious",
+  "syn2": "Categorical",
+  "syn3": "Unequivocal",
+  "sentence": "I gave them explicit directions on how to get here."
+ },
+ {
+  "no": 249,
+  "word": "Exploiting",
+  "meaning": "Make full use of and derive benefit from (a resource).",
+  "syn1": "Utilize",
+  "syn2": "Harnessing",
+  "syn3": "Employ",
+  "sentence": "We need to make sure that we exploit our resources as fully as possible."
+ },
+ {
+  "no": 250,
+  "word": "Expound",
+  "meaning": "Present and explain (a theory or idea) in detail.",
+  "syn1": "Present",
+  "syn2": "Exposit",
+  "syn3": "Propound",
+  "sentence": "The article expounds the virtues of a healthy diet."
+ },
+ {
+  "no": 251,
+  "word": "Feasible",
+  "meaning": "Possible to do easily or conveniently.",
+  "syn1": "Practical",
+  "syn2": "Workable",
+  "syn3": "Achievable",
+  "sentence": "With the extra resources, the project now seems feasible."
+ },
+ {
+  "no": 252,
+  "word": "Fluctuations",
+  "meaning": "An irregular rising and falling in number or amount; a variation.",
+  "syn1": "Variation",
+  "syn2": "Alteration",
+  "syn3": "Undulation",
+  "sentence": "There are many issues that are likely to cause fluctuation in fish stocks."
+ },
+ {
+  "no": 253,
+  "word": "Forage",
+  "meaning": "(Of a person or animal) search widely for food or provisions.",
+  "syn1": "Pasturage",
+  "syn2": "Herbage",
+  "syn3": "Fodder",
+  "sentence": "In the warmer months, squirrels forage for a wide variety of foods, ranging from mushrooms to berries."
+ },
+ {
+  "no": 254,
+  "word": "Foresight",
+  "meaning": "The ability to predict what will happen or be needed in the future.",
+  "syn1": "Anticipating",
+  "syn2": "Provision",
+  "syn3": "Prescience",
+  "sentence": "A little foresight could have avoided most of our supply problems."
+ },
+ {
+  "no": 255,
+  "word": "Forgone Conclusion",
+  "meaning": "An inevitable outcome or result that is obvious to everyone before it happens",
+  "syn1": "Inevitable",
+  "syn2": "Certainty",
+  "syn3": "Inescapable",
+  "sentence": "The result of the election seems to be a foregone conclusion."
+ },
+ {
+  "no": 256,
+  "word": "Gamut",
+  "meaning": "The complete range or scope of something.",
+  "syn1": "Spectrum",
+  "syn2": "Span",
+  "syn3": "Reach",
+  "sentence": "Their new record ran the gamut of musical styles, from folk to rock."
+ },
+ {
+  "no": 257,
+  "word": "Homogenize",
+  "meaning": "Make uniform or similar.",
+  "syn1": "Integrate",
+  "syn2": "Fuse",
+  "syn3": "Merge",
+  "sentence": "The new curriculum is an attempt to homogenize education throughout the county."
+ },
+ {
+  "no": 258,
+  "word": "Impervious",
+  "meaning": "Not allowing fluid to pass through.",
+  "syn1": "Impermeable",
+  "syn2": "Impenetrable",
+  "syn3": "Impregnable",
+  "sentence": "Despite his best efforts, she remained impervious to his charms."
+ },
+ {
+  "no": 259,
+  "word": "Implication",
+  "meaning": "The conclusion that can be drawn from something although it is not explicitly stated.",
+  "syn1": "Inference",
+  "syn2": "Insinuation",
+  "syn3": "Suggestion",
+  "sentence": "Moving the place of employment of one member of a household has serious implications for the others."
+ },
+ {
+  "no": 260,
+  "word": "Imposing",
+  "meaning": "Grand and impressive in appearance.",
+  "syn1": "Formidable",
+  "syn2": "Striking",
+  "syn3": "Arresting",
+  "sentence": "He was an imposing figure on stage."
+ },
+ {
+  "no": 261,
+  "word": "Impulsive",
+  "meaning": "Acting or done without forethought.",
+  "syn1": "Spontaneous",
+  "syn2": "Impetuous",
+  "syn3": "Reckless",
+  "sentence": "The total score gives a global level of impulsive and self-destructive behaviors."
+ },
+ {
+  "no": 262,
+  "word": "Incidence",
+  "meaning": "The occurrence, rate, or frequency of a disease, crime, or other undesirable thing.",
+  "syn1": "Prevalance",
+  "syn2": "Quantity",
+  "syn3": "Extent",
+  "sentence": "Excess fat is thought to be responsible for the high incidence of heart disease in Western countries."
+ },
+ {
+  "no": 263,
+  "word": "Indoctrinate",
+  "meaning": "Teach (a person or group) to accept a set of beliefs uncritically",
+  "syn1": "Brainwash",
+  "syn2": "Propogandize",
+  "syn3": "Condition",
+  "sentence": "The youth have been indoctrinated by television to believe that violence is normal."
+ },
+ {
+  "no": 264,
+  "word": "Innate",
+  "meaning": "Inborn; natural.",
+  "syn1": "Inbred",
+  "syn2": "Inherent",
+  "syn3": "Instinctive",
+  "sentence": "It has often been claimed that primitive mathematical notions are innate to the human mind."
+ },
+ {
+  "no": 265,
+  "word": "Interface",
+  "meaning": "A point where two systems, subjects, organizations, etc. meet and interact",
+  "syn1": "Confluence",
+  "syn2": "Juncture",
+  "syn3": "Assemblage",
+  "sentence": "We will interface with machines through thought signals."
+ },
+ {
+  "no": 266,
+  "word": "Intoxicating",
+  "meaning": "Exhilarating or exciting.",
+  "syn1": "Rousing",
+  "syn2": "Thrilling",
+  "syn3": "Invigorating",
+  "sentence": "After being cooped up in the overheated room all day, we took a stroll and found the fresh air intoxicating."
+ },
+ {
+  "no": 267,
+  "word": "Lambast",
+  "meaning": "Criticize (someone or something) harshly",
+  "syn1": "Castigate",
+  "syn2": "Chastise",
+  "syn3": "Critisize",
+  "sentence": "The coach lambasted the team for its poor play."
+ },
+ {
+  "no": 268,
+  "word": "Mastery",
+  "meaning": "Comprehensive knowledge or skill in a particular subject or activity.",
+  "syn1": "Proficiency",
+  "syn2": "Capability",
+  "syn3": "Expertise",
+  "sentence": "Louis Armstrong's mastery of the trumpet is legendary."
+ },
+ {
+  "no": 269,
+  "word": "Moderation",
+  "meaning": "The avoidance of excess or extremes, especially in one's behaviour or political opinions.",
+  "syn1": "Restraint",
+  "syn2": "Temperance",
+  "syn3": "Discipline",
+  "sentence": "Policy moderation by incumbents has a positive significant effect on their votes."
+ },
+ {
+  "no": 270,
+  "word": "Mutability",
+  "meaning": "The quality of being changeable.",
+  "syn1": "Changeability",
+  "syn2": "Inconstancy",
+  "syn3": "Instability",
+  "sentence": "Naturalists began to reject essentialism and consider the importance of extinction and the mutability of species."
+ },
+ {
+  "no": 271,
+  "word": "Notional",
+  "meaning": "Existing as or based on a suggestion, estimate, or theory; not existing in reality.",
+  "syn1": "Hypothetical",
+  "syn2": "Speculative",
+  "syn3": "Theoretical",
+  "sentence": "For weeks, some have been drawing up and circulating notional plans for a truncated nominating contest that would culminate at the party's convention in Chicago in August."
+ },
+ {
+  "no": 272,
+  "word": "Nullify",
+  "meaning": "Make legally null and void; invalidate.",
+  "syn1": "Annul",
+  "syn2": "Invalidate",
+  "syn3": "Rescind",
+  "sentence": "It is at the discretion of the court to nullify the decision."
+ },
+ {
+  "no": 273,
+  "word": "Nurture",
+  "meaning": "Care for and protect (someone or something) while they are growing.",
+  "syn1": "Bring up",
+  "syn2": "Rear",
+  "syn3": "Foster",
+  "sentence": "Since the past 2 years, careful planning, designing and nurturing have gone into creating the state of the art testing platform at Satnpaper."
+ },
+ {
+  "no": 274,
+  "word": "Orthodox",
+  "meaning": "Following or conforming to the traditional or generally accepted rules or beliefs of a religion, philosophy, or practice.",
+  "syn1": "Conservative",
+  "syn2": "Conformist",
+  "syn3": "Devout",
+  "sentence": "He believes in the benefits of both orthodox medicine and alternative medicine."
+ },
+ {
+  "no": 275,
+  "word": "Outmoded",
+  "meaning": "Old-fashioned.",
+  "syn1": "Outdated",
+  "syn2": "Archaic",
+  "syn3": "Defunct",
+  "sentence": "The city is replacing its outmoded sewage-treatment plant."
+ },
+ {
+  "no": 276,
+  "word": "Perpetuate",
+  "meaning": "Make (something) continue indefinitely.",
+  "syn1": "Continue",
+  "syn2": "Extend",
+  "syn3": "Sustain",
+  "sentence": "The dam can grow as it is fed by more liquid above it, and the problem perpetuates."
+ },
+ {
+  "no": 277,
+  "word": "Postulate",
+  "meaning": "Suggest or assume the existence, fact, or truth of (something) as a basis for reasoning or discussion.",
+  "syn1": "Posit",
+  "syn2": "Suggest",
+  "syn3": "Predicate",
+  "sentence": "Scientists have postulated the existence of water on other planets in the solar system."
+ },
+ {
+  "no": 278,
+  "word": "Precarious",
+  "meaning": "Not securely held or in position; dangerously likely to fall or collapse; dependent on chance",
+  "syn1": "Unreliable",
+  "syn2": "Perilous",
+  "syn3": "Uncertain",
+  "sentence": "Funding for professional athletes is based on medal winning, which seems precarious."
+ },
+ {
+  "no": 279,
+  "word": "Precursor",
+  "meaning": "A person or thing that comes before another.",
+  "syn1": "Forerunner",
+  "syn2": "Predecessor",
+  "syn3": "Antecedent",
+  "sentence": "The Oarfish has long been referred to as a doomsday fish, a reference that likely stems from Japanese folklore, which considered spotting such a fish a precursor to natural disasters, especially earthquakes."
+ },
+ {
+  "no": 280,
+  "word": "Proclivity",
+  "meaning": "A tendency to choose or do something regularly",
+  "syn1": "Inclination",
+  "syn2": "Propensity",
+  "syn3": "Penchant",
+  "sentence": "Having squandered his inheritance, and with a proclivity for drinking and gambling, he accumulated debts."
+ },
+ {
+  "no": 281,
+  "word": "Proficiency",
+  "meaning": "A high degree of skill; expertise.",
+  "syn1": "Capability",
+  "syn2": "Capacity",
+  "syn3": "Competence",
+  "sentence": "Proficiency in the English language is vital in this world."
+ },
+ {
+  "no": 282,
+  "word": "Profound",
+  "meaning": "(Of a state, quality, or emotion) very great or intense; (of a person or statement) having or showing great knowledge or insight.",
+  "syn1": "Acute",
+  "syn2": "Knowledgeable",
+  "syn3": "Sagacious",
+  "sentence": "For a lad of 21 it was a very profound statement, but he's right."
+ },
+ {
+  "no": 283,
+  "word": "Proponent",
+  "meaning": "A person who advocates a theory, proposal, or course of action.",
+  "syn1": "Advocate",
+  "syn2": "Exponent",
+  "syn3": "Backer",
+  "sentence": "He was a leading proponent of a rational, sensible approach to the problems they had."
+ },
+ {
+  "no": 284,
+  "word": "Proxy",
+  "meaning": "A person holding authority to act for another",
+  "syn1": "Substitute",
+  "syn2": "Delegate",
+  "syn3": "Surrogate",
+  "sentence": "The meeting will be attended by the foreign minister as a proxy for the president."
+ },
+ {
+  "no": 285,
+  "word": "Reciprocal",
+  "meaning": "Given, felt, or done in return; (of an agreement or obligation) bearing on or binding each of two parties equally.",
+  "syn1": "Mutual",
+  "syn2": "Requited",
+  "syn3": "Returned",
+  "sentence": "We have agreed to exchange information about our two companies, but strictly on a reciprocal basis."
+ },
+ {
+  "no": 286,
+  "word": "Recurrent",
+  "meaning": "Occurring often or repeatedly.",
+  "syn1": "Repetitive",
+  "syn2": "Recurring",
+  "syn3": "Cyclical",
+  "sentence": "A recurrent theme in his work is isolation."
+ },
+ {
+  "no": 287,
+  "word": "Reinforce",
+  "meaning": "Strengthen or support (an object or substance), especially with additional material.",
+  "syn1": "Fortify",
+  "syn2": "Strengthen",
+  "syn3": "Brace",
+  "sentence": "The builders used metal rods to reinforce the walls of the building."
+ },
+ {
+  "no": 288,
+  "word": "Reminiscent",
+  "meaning": "Tending to remind one of something",
+  "syn1": "Evocative of",
+  "syn2": "Remindful of",
+  "syn3": "Similar to",
+  "sentence": "The atmosphere has turned toxic, the disdain and infighting more reminiscent of a civil war than a football team."
+ },
+ {
+  "no": 289,
+  "word": "Renunciation",
+  "meaning": "The formal rejection of something, typically a belief, claim, or course of action.",
+  "syn1": "Rejection",
+  "syn2": "Forsaking",
+  "syn3": "Denial",
+  "sentence": "Ukraine's renunciation of its nuclear arsenal three decades ago is seen by some as a mistake that left it open to invasion."
+ },
+ {
+  "no": 290,
+  "word": "Repercussion",
+  "meaning": "An unintended consequence of an event or action, especially an unwelcome one.",
+  "syn1": "Consequence",
+  "syn2": "Outcome",
+  "syn3": "Reverberation",
+  "sentence": "The scandal could have serious political repercussions for the government."
+ },
+ {
+  "no": 291,
+  "word": "Resonate",
+  "meaning": "If you resonate with something; it feels true or has meaning for you",
+  "syn1": "Connect",
+  "syn2": "Associate",
+  "syn3": "Identify",
+  "sentence": "She spoke about both doubting herself and believing in herself, and I definitely resonate with that."
+ },
+ {
+  "no": 292,
+  "word": "Restoration",
+  "meaning": "The action of returning something to a former owner, place, or condition.",
+  "syn1": "Reinstatement",
+  "syn2": "Reimposition",
+  "syn3": "Rehabilitation",
+  "sentence": "Conservation groups, small nonprofits, Native American tribes, and local governments were assigned federal money for a bevy of projects that included wildfire prevention and habitat restoration."
+ },
+ {
+  "no": 293,
+  "word": "Rhetoric",
+  "meaning": "The art of effective or persuasive speaking or writing, especially the exploitation of figures of speech and other compositional techniques.",
+  "syn1": "Oratory",
+  "syn2": "Eloquence",
+  "syn3": "Diction",
+  "sentence": "The minister's impassioned rhetoric soon had the crowd on its feet."
+ },
+ {
+  "no": 294,
+  "word": "Satiate",
+  "meaning": "Satisfied to the full.",
+  "syn1": "Quench",
+  "syn2": "Fill",
+  "syn3": "Slake",
+  "sentence": "He folded up his newspaper, his curiosity satiated on the topic."
+ },
+ {
+  "no": 295,
+  "word": "Simulate",
+  "meaning": "Imitate the appearance or character of; pretend to have or feel (an emotion); produce a computer model of.",
+  "syn1": "Replicate",
+  "syn2": "Feign",
+  "syn3": "Pretend",
+  "sentence": "The new model will provide more accurate simulations of earthquakes."
+ },
+ {
+  "no": 296,
+  "word": "Spectacle",
+  "meaning": "A visually striking performance or display.",
+  "syn1": "Presentation",
+  "syn2": "Display",
+  "syn3": "Exhibition",
+  "sentence": "Crowds of people lined the cliffs to watch the surfing spectacle."
+ },
+ {
+  "no": 297,
+  "word": "Substantial",
+  "meaning": "Of considerable importance, size, or worth.",
+  "syn1": "Considerable",
+  "syn2": "Significant",
+  "syn3": "Sizeable",
+  "sentence": "She inherited a substantial fortune from her grandmother."
+ },
+ {
+  "no": 298,
+  "word": "Succumb",
+  "meaning": "Fail to resist pressure, temptation, or some other negative force.",
+  "syn1": "Yield",
+  "syn2": "Capitulate",
+  "syn3": "Submit",
+  "sentence": "Performances often go awry when one succumbs to pressure."
+ },
+ {
+  "no": 299,
+  "word": "Synchronization",
+  "meaning": "The operation or activity of two or more things at the same time or rate.",
+  "syn1": "Coexisting",
+  "syn2": "Concurring",
+  "syn3": "Accompanying",
+  "sentence": "The secret of a successful assault is exact synchronization of the movements of the infantry with those of the barrage."
+ },
+ {
+  "no": 300,
+  "word": "Temporal",
+  "meaning": "Relating to worldly as opposed to spiritual affairs; relating to time.",
+  "syn1": "Profane",
+  "syn2": "Terrestrial",
+  "syn3": "Sublunary",
+  "sentence": "Our temporal existence here on earth is short."
+ },
+ {
+  "no": 301,
+  "word": "Throng",
+  "meaning": "A large, densely packed crowd of people or animals.",
+  "syn1": "Mass",
+  "syn2": "Multitude",
+  "syn3": "Assemblage",
+  "sentence": "Guards had to be assigned to hold back the crowds that thronged to watch and shout insults at the condemned."
+ },
+ {
+  "no": 302,
+  "word": "Traced",
+  "meaning": "Find or discover by investigation.",
+  "syn1": "Track down",
+  "syn2": "Unearth",
+  "syn3": "Detect",
+  "sentence": "The origins of this custom can be traced back to the 15th century."
+ },
+ {
+  "no": 303,
+  "word": "Unbridled",
+  "meaning": "Uncontrolled; unconstrained.",
+  "syn1": "Unrestrained",
+  "syn2": "Uninhibited",
+  "syn3": "Uncurbed",
+  "sentence": "His unbridled political ambition was his downfall."
+ },
+ {
+  "no": 304,
+  "word": "Unflinching",
+  "meaning": "Not showing fear or hesitation in the face of danger or difficulty.",
+  "syn1": "Resolute",
+  "syn2": "Dogged",
+  "syn3": "Committed",
+  "sentence": "Indians have been praised for respecting their sporting heroes and their unflinching patriotism."
+ },
+ {
+  "no": 305,
+  "word": "Venerate",
+  "meaning": "Regard with great respect.",
+  "syn1": "Revere",
+  "syn2": "Respect",
+  "syn3": "Adulate",
+  "sentence": "The tenacious point guard is venerated by Celtics fans for his hard-nosed play and hustle."
+ },
+ {
+  "no": 306,
+  "word": "Wrought",
+  "meaning": "Made or fashioned in the specified way.",
+  "syn1": "Constructed",
+  "syn2": "Shaped",
+  "syn3": "Molded",
+  "sentence": "He came to take stock of the damage wrought by 70 days of war."
+ },
+ {
+  "no": 307,
+  "word": "Albeit",
+  "meaning": "Although; even though.",
+  "syn1": "Notwithstanding",
+  "syn2": "Even if",
+  "syn3": "But",
+  "sentence": "The task was completed, albeit with some difficulty."
+ },
+ {
+  "no": 308,
+  "word": "Meeker",
+  "meaning": "More quiet, gentle, and easily imposed on; submissive.",
+  "syn1": "Timider",
+  "syn2": "Humbler",
+  "syn3": "Gentler",
+  "sentence": "Compared to his confident brother, Daniel seemed meeker and less assertive."
+ },
+ {
+  "no": 309,
+  "word": "Abridge",
+  "meaning": "To shorten a text while keeping its essential content; to curtail.",
+  "syn1": "Shorten",
+  "syn2": "Condense",
+  "syn3": "Curtail",
+  "sentence": "The editor decided to abridge the novel for younger readers."
+ },
+ {
+  "no": 310,
+  "word": "Denote",
+  "meaning": "To indicate or be a sign of; to represent.",
+  "syn1": "Indicate",
+  "syn2": "Signify",
+  "syn3": "Represent",
+  "sentence": "The red flag denotes a warning of danger ahead."
+ },
+ {
+  "no": 311,
+  "word": "Withhold",
+  "meaning": "To refuse to give; to hold back.",
+  "syn1": "Retain",
+  "syn2": "Reserve",
+  "syn3": "Suppress",
+  "sentence": "The teacher decided to withhold judgment until hearing both sides of the story."
+ },
+ {
+  "no": 312,
+  "word": "Intermingle",
+  "meaning": "To mix or blend together.",
+  "syn1": "Blend",
+  "syn2": "Combine",
+  "syn3": "Merge",
+  "sentence": "At the festival, people from different cultures intermingled freely."
+ }
+]

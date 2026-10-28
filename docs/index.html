@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>SAT Vocab</title>
+  <meta name="description" content="SAT vocabulary flashcards with spaced repetition.">
+  <meta name="theme-color" content="#E9ECEF" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#12171C" media="(prefers-color-scheme: dark)">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-title" content="SAT Vocab">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="apple-touch-icon" href="icons/app-180.png">
+  <link rel="icon" type="image/png" href="icons/app-192.png">
+  <link rel="preload" href="fonts/Geist-Variable.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="styles.css">
+  <script>
+    // Apply the saved theme before first paint to avoid a flash.
+    try { const t = localStorage.getItem("satflash.theme"); if (t) document.documentElement.dataset.theme = t; } catch {}
+  </script>
+</head>
+<body>
+  <header class="topbar">
+    <dl class="stats" aria-label="Progress">
+      <div><dt>New</dt><dd id="stat-new">0</dd></div>
+      <div><dt>Learning</dt><dd id="stat-learning">0</dd></div>
+      <div><dt>Mastered</dt><dd id="stat-mastered">0</dd></div>
+      <div><dt>Today</dt><dd id="stat-today">0</dd></div>
+    </dl>
+    <div class="actions">
+      <button class="sync" id="sync" type="button" aria-label="Sync settings"><span class="icon" id="sync-icon"></span><span id="sync-text" role="status"></span></button>
+      <button class="icon-btn" id="open-list" type="button" aria-label="Word list"><span class="icon i-list"></span></button>
+      <button class="icon-btn" id="theme-toggle" type="button" aria-label="Toggle dark mode"><span class="icon i-theme"></span></button>
+    </div>
+  </header>
+
+  <main class="stage">
+    <div class="card-slot" id="card-slot">
+      <div class="card" id="card" role="button" tabindex="0" aria-label="Flashcard. Activate to flip.">
+        <p class="loading" id="loading">Loading words</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="answers" id="answers">
+    <button class="btn btn-miss" id="btn-miss" type="button"><span class="icon i-x"></span>Didn't remember</button>
+    <button class="btn btn-hit" id="btn-hit" type="button"><span class="icon i-check"></span>Remembered</button>
+    <p class="keys" aria-hidden="true">Space to flip, ← didn't remember, → remembered</p>
+  </footer>
+
+  <div class="scrim" id="scrim" hidden></div>
+  <aside class="drawer" id="drawer" aria-label="Word list" aria-hidden="true" inert>
+    <div class="drawer-head">
+      <h2>All words</h2>
+      <button class="icon-btn" id="close-list" type="button" aria-label="Close word list"><span class="icon i-x"></span></button>
+    </div>
+    <div class="search">
+      <label for="search-input">Search</label>
+      <input id="search-input" type="search" autocomplete="off" spellcheck="false" placeholder="Type a word">
+    </div>
+    <p class="list-count" id="list-count"></p>
+    <ul class="word-list" id="word-list"></ul>
+    <div class="drawer-foot">
+      <button class="btn-quiet" id="open-reset" type="button"><span class="icon i-reset"></span>Reset progress</button>
+    </div>
+  </aside>
+
+  <dialog class="modal preview" id="preview" aria-label="Word preview">
+    <div class="card" id="preview-card" role="button" tabindex="0" aria-label="Flashcard. Activate to flip."></div>
+    <button class="btn btn-plain" id="close-preview" type="button">Close</button>
+  </dialog>
+
+  <dialog class="modal confirm" id="confirm-reset" aria-labelledby="reset-title">
+    <h2 id="reset-title">Reset all progress?</h2>
+    <p>Every word goes back to new. This clears progress on every synced device.</p>
+    <div class="confirm-actions">
+      <button class="btn btn-plain" id="cancel-reset" type="button">Cancel</button>
+      <button class="btn btn-miss" id="do-reset" type="button">Reset</button>
+    </div>
+  </dialog>
+
+  <dialog class="modal sync-setup" id="sync-dialog" aria-labelledby="sync-title">
+    <h2 id="sync-title">Sync with GitHub</h2>
+    <div id="sync-disconnected">
+      <p>Progress is saved on this device. To share it between your Mac and iPhone, connect a GitHub token that can only edit your gists. Do this once on each device.</p>
+      <ol>
+        <li><a href="https://github.com/settings/tokens/new?scopes=gist&amp;description=SAT%20Vocab%20sync" target="_blank" rel="noopener">Create a token</a> (gist is already ticked). Set Expiration to "No expiration", then press Generate.</li>
+        <li>Copy the token and paste it here.</li>
+      </ol>
+      <label for="token-input">GitHub token</label>
+      <input id="token-input" type="password" autocomplete="off" spellcheck="false" placeholder="ghp_">
+      <p class="form-error" id="token-error" hidden></p>
+      <div class="confirm-actions">
+        <button class="btn btn-plain" type="button" data-close>Cancel</button>
+        <button class="btn btn-hit" id="connect-sync" type="button">Connect</button>
+      </div>
+    </div>
+    <div id="sync-connected" hidden>
+      <p id="sync-detail"></p>
+      <div class="confirm-actions">
+        <button class="btn btn-plain" id="disconnect-sync" type="button">Disconnect</button>
+        <button class="btn btn-plain" id="sync-now" type="button">Sync now</button>
+        <button class="btn btn-hit" type="button" data-close>Done</button>
+      </div>
+    </div>
+  </dialog>
+
+  <script type="module" src="app.js"></script>
+</body>
+</html>
