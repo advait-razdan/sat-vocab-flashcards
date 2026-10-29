@@ -24,6 +24,17 @@ CORRECTIONS = [
     (267, "syn3", "Critisize", "Criticize", "misspelling"),
     # Wrong headword: meaning and sentence are for "induce"
     (99, "word", "Inducement", "Induce", "duplicate headword; row defines 'induce'"),
+    # Table errors (not spelling), fixed on request on 2026-10-29
+    (36, "syn1", "Conversational vernacular", "Idiom", "table error; noun synonyms chosen"),
+    (36, "syn2", "Synonyms", "Slang", "table error (leftover header text)"),
+    (36, "syn3", "Dialectal", "Vernacularism", "table error; noun synonyms chosen"),
+    (98, "sentence", "treachery was irrefutable", "treachery was indisputable", "sentence used a different word"),
+    (161, "sentence",
+     "It is estimated that over one-third of sub-prime borrowers could have qualified for cheaper, conventional loans.",
+     "With its red phone boxes and black cabs, the street looked like the quintessential London scene.",
+     "sentence did not use the word; replaced"),
+    (229, "syn1", "Concord Clear Peer", "Contemporaneous", "table error; synonyms per Wiktionary/WordNet"),
+    (229, "syn2", "Fellow", "Coexistent", "synonym for the 'same time' sense per Wiktionary"),
     # British -> American
     (6, "meaning", "skilful", "skillful", "British to American"),
     (24, "meaning", "favourable", "favorable", "British to American"),
@@ -39,10 +50,6 @@ CORRECTIONS = [
 ]
 
 NOT_CHANGED = [
-    "#36 Colloquialism: Synonym 1 'Conversational vernacular' and Synonym 2 'Synonyms' look like table errors (not spelling).",
-    "#98 Indisputable: the example sentence uses 'irrefutable', not 'indisputable'.",
-    "#161 Quintessential: the example sentence uses 'conventional', not 'quintessential'.",
-    "#229 Contemporary: Synonym 1 reads 'Concord Clear Peer'.",
     "#267 Lambast: kept; 'lambast' is an accepted variant of 'lambaste'.",
     "#273 Nurture: 'Satnpaper' kept as written (likely a company name).",
     "'amongst' (#150) and 'towards' (#55, #120, #162): kept; both are standard in American English.",

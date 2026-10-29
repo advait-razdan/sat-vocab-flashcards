@@ -318,9 +318,9 @@
   "no": 36,
   "word": "Colloquialism",
   "meaning": "A word or phrase that is not formal or literary and is used in ordinary or familiar conversation.",
-  "syn1": "Conversational vernacular",
-  "syn2": "Synonyms",
-  "syn3": "Dialectal",
+  "syn1": "Idiom",
+  "syn2": "Slang",
+  "syn3": "Vernacularism",
   "sentence": "What people have suffered during the pandemic is \"touch hunger,\" a colloquial term for what social scientists call \"affection deprivation\", a state in which individuals want or need more affection than they receive."
  },
  {
@@ -879,7 +879,7 @@
   "syn1": "Unarguable",
   "syn2": "Undeniable",
   "syn3": "Irrefutable",
-  "sentence": "Although their treachery was irrefutable, the authorities thought it wiser not to prosecute."
+  "sentence": "Although their treachery was indisputable, the authorities thought it wiser not to prosecute."
  },
  {
   "no": 99,
@@ -1446,7 +1446,7 @@
   "syn1": "Stereotypical",
   "syn2": "Prototypical",
   "syn3": "Conventional",
-  "sentence": "It is estimated that over one-third of sub-prime borrowers could have qualified for cheaper, conventional loans."
+  "sentence": "With its red phone boxes and black cabs, the street looked like the quintessential London scene."
  },
  {
   "no": 162,
@@ -2055,8 +2055,8 @@
   "no": 229,
   "word": "Contemporary",
   "meaning": "Living or occurring at the same time.",
-  "syn1": "Concord Clear Peer",
-  "syn2": "Fellow",
+  "syn1": "Contemporaneous",
+  "syn2": "Coexistent",
   "syn3": "Coeval",
   "sentence": "Hitler was a contemporary of Mussolini."
  },
