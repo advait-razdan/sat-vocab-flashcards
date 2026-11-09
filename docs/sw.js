@@ -1,6 +1,6 @@
 // Offline support: cache the whole app on install, serve it cache-first.
 // Bump VERSION whenever any file below changes, so devices pick up the update.
-const VERSION = "v3";
+const VERSION = "v4";
 const CACHE = `satflash-${VERSION}`;
 const FILES = [
   "./",
@@ -10,6 +10,10 @@ const FILES = [
   "srs.js",
   "sync.js",
   "words.json",
+  "reading.html",
+  "reading.js",
+  "reading-core.js",
+  "questions.json",
   "manifest.webmanifest",
   "fonts/Geist-Variable.woff2",
   "fonts/GeistMono-Variable.woff2",

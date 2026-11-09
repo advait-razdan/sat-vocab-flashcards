@@ -1,6 +1,7 @@
 // Progress storage: always saved on this device first, then synced to a
 // secret GitHub gist when a token is connected and the network is up.
 import { mergeProgress } from "./srs.js";
+import { mergeReading, emptyReading } from "./reading-core.js";
 
 const PROGRESS_KEY = "satflash.progress.v1";
 const TOKEN_KEY = "satflash.token";
@@ -8,6 +9,8 @@ const GIST_KEY = "satflash.gistId";
 const GIST_DESC = "SAT Vocab progress (used by the flashcards app, do not delete)";
 const GIST_FILE = "progress.json";
 const API = "https://api.github.com";
+const READING_KEY = "satflash.reading.v1";
+const READING_FILE = "reading.json"; // reading practice history, in the same gist
 
 function read(key) {
   try { return localStorage.getItem(key); } catch { return null; }
@@ -78,10 +81,13 @@ async function findOrCreateGist(token, progress) {
   return created.id;
 }
 
-async function pull(token, gistId) {
+async function pull(token, gistId, fileName = GIST_FILE) {
   const gist = await api(`/gists/${gistId}`, token);
-  const file = gist.files[GIST_FILE];
-  if (!file) throw new SyncError("other", "Progress file missing from gist");
+  const file = gist.files[fileName];
+  if (!file) {
+    if (fileName === READING_FILE) return emptyReading(); // no reading history synced yet
+    throw new SyncError("other", "Progress file missing from gist");
+  }
   let content = file.content;
   if (file.truncated) {
     try { content = await (await fetch(file.raw_url, { cache: "no-store" })).text(); }
@@ -118,6 +124,44 @@ export async function sync(local) {
     await api(`/gists/${gistId}`, token, {
       method: "PATCH",
       body: JSON.stringify({ files: { [GIST_FILE]: { content: JSON.stringify(merged) } } }),
+    });
+  }
+  return merged;
+}
+
+export function loadReading() {
+  try {
+    const r = JSON.parse(read(READING_KEY));
+    if (r && r.attempts && r.marks) return r;
+  } catch {}
+  return emptyReading();
+}
+
+export function saveReading(reading) {
+  write(READING_KEY, JSON.stringify(reading));
+}
+
+// Same as sync(), for the reading history file. The gist is shared with vocab.
+export async function syncReading(local) {
+  const token = read(TOKEN_KEY);
+  if (!token) throw new SyncError("auth", "Not connected");
+  let gistId = read(GIST_KEY);
+  if (!gistId) {
+    gistId = await findOrCreateGist(token, loadLocal());
+    write(GIST_KEY, gistId);
+  }
+  let remote;
+  try {
+    remote = await pull(token, gistId, READING_FILE);
+  } catch (e) {
+    if (e.message === "GitHub error 404") write(GIST_KEY, null);
+    throw e;
+  }
+  const merged = mergeReading(local, remote);
+  if (stable(merged) !== stable(mergeReading(remote, {}))) {
+    await api(`/gists/${gistId}`, token, {
+      method: "PATCH",
+      body: JSON.stringify({ files: { [READING_FILE]: { content: JSON.stringify(merged) } } }),
     });
   }
   return merged;
