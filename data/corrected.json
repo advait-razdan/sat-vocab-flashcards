@@ -20,7 +20,7 @@
  {
   "no": 3,
   "word": "Accentuate",
-  "meaning": "To make more noticeable or prominent",
+  "meaning": "To make more noticeable or prominent.",
   "syn1": "Underscore",
   "syn2": "Emphasize",
   "syn3": "Highlight",
@@ -101,7 +101,7 @@
  {
   "no": 12,
   "word": "Amorphous",
-  "meaning": "Without a clearly defined shape or form",
+  "meaning": "Without a clearly defined shape or form.",
   "syn1": "Structureless",
   "syn2": "Indeterminate",
   "syn3": "Unstructured",
@@ -141,12 +141,12 @@
   "syn1": "Conciliate",
   "syn2": "Propitiate",
   "syn3": "Reconcile",
-  "sentence": "Their acknowledgement of responsibility has done nothing to appease her anger."
+  "sentence": "Their acknowledgment of responsibility has done nothing to appease her anger."
  },
  {
   "no": 17,
   "word": "Appraise",
-  "meaning": "Assess the value or quality of",
+  "meaning": "Assess the value or quality of.",
   "syn1": "Evaluate",
   "syn2": "Estimate",
   "syn3": "Gauge",
@@ -164,7 +164,7 @@
  {
   "no": 19,
   "word": "Assuage",
-  "meaning": "Make an unpleasant feeling less intense; to satisfy",
+  "meaning": "Make an unpleasant feeling less intense; to satisfy.",
   "syn1": "Mitigate",
   "syn2": "Alleviate",
   "syn3": "Gratify",
@@ -174,9 +174,9 @@
   "no": 20,
   "word": "Attenuate",
   "meaning": "Reduce the force, effect, or value of.",
-  "syn1": "Reduced",
-  "syn2": "Impaired",
-  "syn3": "Enervated",
+  "syn1": "Reduce",
+  "syn2": "Weaken",
+  "syn3": "Diminish",
   "sentence": "Storm suggests hopefully that a planetary crisis, such as climate change, might attenuate nationalism."
  },
  {
@@ -218,7 +218,7 @@
  {
   "no": 25,
   "word": "Austere",
-  "meaning": "Severe or strict in manner or attitude",
+  "meaning": "Severe or strict in manner or attitude.",
   "syn1": "Stern",
   "syn2": "Frosty",
   "syn3": "Stringent",
@@ -231,15 +231,15 @@
   "syn1": "Hackneyed",
   "syn2": "Platitudinous",
   "syn3": "Vapid",
-  "sentence": "The experts' banal interpretation of the match made for a post match show that saw ratings drop to an all time low."
+  "sentence": "The experts' banal interpretation of the match made for a post-match show that saw ratings drop to an all-time low."
  },
  {
   "no": 27,
   "word": "Begrudgingly",
   "meaning": "Reluctantly or resentfully.",
-  "syn1": "Belligerently",
-  "syn2": "Rudely",
-  "syn3": "Contemptuously",
+  "syn1": "Grudgingly",
+  "syn2": "Reluctantly",
+  "syn3": "Unwillingly",
   "sentence": "Later, however, they begrudgingly accept his help."
  },
  {
@@ -263,7 +263,7 @@
  {
   "no": 30,
   "word": "Candor",
-  "meaning": "The quality of being open and honest",
+  "meaning": "The quality of being open and honest.",
   "syn1": "Sincerity",
   "syn2": "Truthfulness",
   "syn3": "Frankness",
@@ -281,7 +281,7 @@
  {
   "no": 32,
   "word": "Capricious",
-  "meaning": "Given to sudden and unaccountable changes of mood or behavior",
+  "meaning": "Given to sudden and unaccountable changes of mood or behavior.",
   "syn1": "Fickle",
   "syn2": "Haphazard",
   "syn3": "Erratic",
@@ -290,11 +290,11 @@
  {
   "no": 33,
   "word": "Catalyzing",
-  "meaning": "Cause or accelerate something by acting as a catalyst",
+  "meaning": "Cause or accelerate something by acting as a catalyst.",
   "syn1": "Prompt",
-  "syn2": "Imbue",
+  "syn2": "Spur",
   "syn3": "Ferment",
-  "sentence": "The new policies introduced by the government had a catalyzing effect on E-commerce."
+  "sentence": "The new policies introduced by the government had a catalyzing effect on e-commerce."
  },
  {
   "no": 34,
@@ -308,7 +308,7 @@
  {
   "no": 35,
   "word": "Coalesce",
-  "meaning": "Come together to form a single mass or whole",
+  "meaning": "Come together to form a single mass or whole.",
   "syn1": "Combine",
   "syn2": "Merge",
   "syn3": "Amalgamate",
@@ -321,7 +321,7 @@
   "syn1": "Idiom",
   "syn2": "Slang",
   "syn3": "Vernacularism",
-  "sentence": "What people have suffered during the pandemic is \"touch hunger,\" a colloquial term for what social scientists call \"affection deprivation\", a state in which individuals want or need more affection than they receive."
+  "sentence": "What people have suffered during the pandemic is \"touch hunger,\" a colloquial term for what social scientists call \"affection deprivation,\" a state in which individuals want or need more affection than they receive."
  },
  {
   "no": 37,
@@ -353,7 +353,7 @@
  {
   "no": 40,
   "word": "Convene",
-  "meaning": "Come or bring together for a meeting or activity",
+  "meaning": "Come or bring together for a meeting or activity.",
   "syn1": "Assemble",
   "syn2": "Congregate",
   "syn3": "Muster",
@@ -362,7 +362,7 @@
  {
   "no": 41,
   "word": "Copious",
-  "meaning": "Abundant in supply or quantity",
+  "meaning": "Abundant in supply or quantity.",
   "syn1": "Considerable",
   "syn2": "Ample",
   "syn3": "Substantial",
@@ -393,7 +393,7 @@
   "syn1": "Inoperative",
   "syn2": "Unusable",
   "syn3": "Obsolete",
-  "sentence": "Measuring 30 feet long by 15 feet wide, the plane features a lifting body and innovative wings that enable it to land on a runway in the style of NASA's now defunct space shuttle."
+  "sentence": "Measuring 30 feet long by 15 feet wide, the plane features a lifting body and innovative wings that enable it to land on a runway in the style of NASA's now-defunct space shuttle."
  },
  {
   "no": 45,
@@ -488,7 +488,7 @@
  {
   "no": 55,
   "word": "Dogmatic",
-  "meaning": "Inclined to lay down principles as undeniably true",
+  "meaning": "Inclined to lay down principles as undeniably true.",
   "syn1": "Opinionated",
   "syn2": "Peremptory",
   "syn3": "Adamant",
@@ -524,7 +524,7 @@
  {
   "no": 59,
   "word": "Elide",
-  "meaning": "Omit (a sound or syllable) when speaking; join together",
+  "meaning": "Omit (a sound or syllable) when speaking; join together.",
   "syn1": "Delete",
   "syn2": "Cancel",
   "syn3": "Neglect",
@@ -535,7 +535,7 @@
   "word": "Emanate",
   "meaning": "Issue or spread out from (a source).",
   "syn1": "Emerge",
-  "syn2": "Ensue",
+  "syn2": "Issue",
   "syn3": "Originate",
   "sentence": "The dark understory of the forest began to glow, a vibration emanating from its depths, rising to the sound of a jet engine."
  },
@@ -560,7 +560,7 @@
  {
   "no": 63,
   "word": "Engender",
-  "meaning": "Cause or give rise to (a feeling, situation, or condition)",
+  "meaning": "Cause or give rise to (a feeling, situation, or condition).",
   "syn1": "Instigate",
   "syn2": "Induce",
   "syn3": "Rouse",
@@ -605,7 +605,7 @@
  {
   "no": 68,
   "word": "Equitable",
-  "meaning": "Fair and Impartial",
+  "meaning": "Fair and impartial.",
   "syn1": "Unbiased",
   "syn2": "Unprejudiced",
   "syn3": "Egalitarian",
@@ -632,7 +632,7 @@
  {
   "no": 71,
   "word": "Evince",
-  "meaning": "Reveal the presence of a quality or feeling; indicate",
+  "meaning": "Reveal the presence of a quality or feeling; indicate.",
   "syn1": "Show",
   "syn2": "Exhibit",
   "syn3": "Manifest",
@@ -642,8 +642,8 @@
   "no": 72,
   "word": "Exactitude",
   "meaning": "The quality of being very accurate and careful.",
-  "syn1": "Precise",
-  "syn2": "Accurate",
+  "syn1": "Precision",
+  "syn2": "Accuracy",
   "syn3": "Meticulousness",
   "sentence": "When academic critics attempted to define magical realism with scholarly exactitude, they discovered that it was more powerful than precise."
  },
@@ -686,7 +686,7 @@
  {
   "no": 77,
   "word": "Extrapolate",
-  "meaning": "Extend the application of (a method or conclusion) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable",
+  "meaning": "Extend the application of (a method or conclusion) to an unknown situation by assuming that existing trends will continue or similar methods will be applicable.",
   "syn1": "Assume",
   "syn2": "Conclude",
   "syn3": "Envision",
@@ -780,7 +780,7 @@
   "syn1": "Uncertain",
   "syn2": "Dubious",
   "syn3": "Reluctant",
-  "sentence": "Based on his current Mock test performances, Rahul was hesitant about whether he should attempt the SAT exam in the upcoming month."
+  "sentence": "Based on his current mock test performances, Rahul was hesitant about whether he should attempt the SAT exam in the upcoming month."
  },
  {
   "no": 88,
@@ -794,16 +794,16 @@
  {
   "no": 89,
   "word": "Hew Out",
-  "meaning": "To carve out, or cut out a form, or to make something hollow by using heavy cutting tools such as an axe; alternate meaning is to adhere to",
-  "syn1": "Teardown",
+  "meaning": "To carve out, or cut out a form, or to make something hollow by using heavy cutting tools such as an axe; alternate meaning is to adhere to.",
+  "syn1": "Tear down",
   "syn2": "Raze",
-  "syn3": "Chop Out",
+  "syn3": "Chop out",
   "sentence": "He laboriously hewed trees to procure wood to build a log cabin."
  },
  {
   "no": 90,
   "word": "Idiosyncratic",
-  "meaning": "Peculiar or individualistic",
+  "meaning": "Peculiar or individualistic.",
   "syn1": "Distinctive",
   "syn2": "Unique",
   "syn3": "Specific",
@@ -812,7 +812,7 @@
  {
   "no": 91,
   "word": "Illusory",
-  "meaning": "Based on illusion; not real",
+  "meaning": "Based on illusion; not real.",
   "syn1": "Delusory",
   "syn2": "Imaginary",
   "syn3": "Fanciful",
@@ -884,7 +884,7 @@
  {
   "no": 99,
   "word": "Induce",
-  "meaning": "Succeed in persuading or leading (someone) to do something; give rise to",
+  "meaning": "Succeed in persuading or leading (someone) to do something; give rise to.",
   "syn1": "Convince",
   "syn2": "Influence",
   "syn3": "Cause",
@@ -902,7 +902,7 @@
  {
   "no": 101,
   "word": "Ineluctable",
-  "meaning": "Unable to be resisted or avoided",
+  "meaning": "Unable to be resisted or avoided.",
   "syn1": "Inevitable",
   "syn2": "Unavoidable",
   "syn3": "Ineludible",
@@ -965,7 +965,7 @@
  {
   "no": 108,
   "word": "Insurmountable",
-  "meaning": "Too great to be overcome",
+  "meaning": "Too great to be overcome.",
   "syn1": "Invincible",
   "syn2": "Unconquerable",
   "syn3": "Unassailable",
@@ -1005,7 +1005,7 @@
   "syn1": "Interposition",
   "syn2": "Interpolation",
   "syn3": "Interference",
-  "sentence": "The speech was interjected often by hecklers with shouts of displeasure at the points being spoken about."
+  "sentence": "The speech was punctuated by frequent interjections from hecklers."
  },
  {
   "no": 113,
@@ -1019,7 +1019,7 @@
  {
   "no": 114,
   "word": "Interspersed",
-  "meaning": "Scatter among or between other things",
+  "meaning": "Scatter among or between other things.",
   "syn1": "Disperse",
   "syn2": "Distribute",
   "syn3": "Spread",
@@ -1028,7 +1028,7 @@
  {
   "no": 115,
   "word": "Intricate",
-  "meaning": "Very complicated and detailed",
+  "meaning": "Very complicated and detailed.",
   "syn1": "Elaborate",
   "syn2": "Involuted",
   "syn3": "Complex",
@@ -1046,7 +1046,7 @@
  {
   "no": 117,
   "word": "Irrecoverable",
-  "meaning": "Not able to be recovered or remedied",
+  "meaning": "Not able to be recovered or remedied.",
   "syn1": "Unsalvageable",
   "syn2": "Irredeemable",
   "syn3": "Irretrievable",
@@ -1064,11 +1064,11 @@
  {
   "no": 119,
   "word": "Irreproachable",
-  "meaning": "Beyond criticism; faultless",
+  "meaning": "Beyond criticism; faultless.",
   "syn1": "Immaculate",
   "syn2": "Impeccable",
   "syn3": "Faultless",
-  "sentence": "A man of irreproachable behavior sets an example for others to follow suit."
+  "sentence": "A man of irreproachable behavior sets an example for others to follow."
  },
  {
   "no": 120,
@@ -1077,12 +1077,12 @@
   "syn1": "Shove",
   "syn2": "Thrust",
   "syn3": "Hustle",
-  "sentence": "Raj jostled everyone out of the way as he rushed towards the playground on the sound of the bell."
+  "sentence": "Raj jostled everyone out of the way as he rushed towards the playground at the sound of the bell."
  },
  {
   "no": 121,
   "word": "Juxtapose",
-  "meaning": "Place close together for contrasting effect",
+  "meaning": "Place close together for contrasting effect.",
   "syn1": "Collocate",
   "syn2": "Colligate",
   "syn3": "Contrast",
@@ -1118,7 +1118,7 @@
  {
   "no": 125,
   "word": "Misconstrued",
-  "meaning": "Interpret wrongly",
+  "meaning": "Interpret wrongly.",
   "syn1": "Misconceive",
   "syn2": "Misapprehend",
   "syn3": "Misread",
@@ -1137,9 +1137,9 @@
   "no": 127,
   "word": "Monetizing",
   "meaning": "Earn revenue from (an asset, business, etc.).",
-  "syn1": "Devise",
-  "syn2": "Fabricate",
-  "syn3": "Provide",
+  "syn1": "Commercialize",
+  "syn2": "Capitalize on",
+  "syn3": "Profit from",
   "sentence": "Two years ago, the company launched a platform called Walmart Creator, an affiliate program that enables creators to monetize shoppable products."
  },
  {
@@ -1154,7 +1154,7 @@
  {
   "no": 129,
   "word": "Nebulous",
-  "meaning": "In the form of a cloud or haze; vague or ill defined",
+  "meaning": "In the form of a cloud or haze; vague or ill-defined.",
   "syn1": "Indeterminate",
   "syn2": "Ambiguous",
   "syn3": "Blurred",
@@ -1212,7 +1212,7 @@
   "syn1": "Scarcity",
   "syn2": "Insufficiency",
   "syn3": "Dearth",
-  "sentence": "The paucity of medical supplies led to the death of many men in the battlefield."
+  "sentence": "The paucity of medical supplies led to the death of many men on the battlefield."
  },
  {
   "no": 136,
@@ -1226,7 +1226,7 @@
  {
   "no": 137,
   "word": "Permeate",
-  "meaning": "Spread throughout",
+  "meaning": "Spread throughout.",
   "syn1": "Pervade",
   "syn2": "Perfuse",
   "syn3": "Saturate",
@@ -1235,7 +1235,7 @@
  {
   "no": 138,
   "word": "Pernicious",
-  "meaning": "Highly injurious or destructive: tending to a fatal issue: deadly.",
+  "meaning": "Highly injurious or destructive; tending to a fatal issue; deadly.",
   "syn1": "Harmful",
   "syn2": "Damaging",
   "syn3": "Detrimental",
@@ -1253,7 +1253,7 @@
  {
   "no": 140,
   "word": "Pessimistic",
-  "meaning": "Tending to see the worst aspect of things",
+  "meaning": "Tending to see the worst aspect of things.",
   "syn1": "Cynical",
   "syn2": "Despondent",
   "syn3": "Despairing",
@@ -1262,7 +1262,7 @@
  {
   "no": 141,
   "word": "Placate",
-  "meaning": "Make someone less angry and hostile",
+  "meaning": "Make someone less angry and hostile.",
   "syn1": "Appease",
   "syn2": "Conciliate",
   "syn3": "Soothe",
@@ -1282,7 +1282,7 @@
   "word": "Precipitating",
   "meaning": "Cause (an event or situation, typically one that is undesirable) to happen suddenly, unexpectedly, or prematurely.",
   "syn1": "Bring about",
-  "syn2": "Cause to",
+  "syn2": "Spark",
   "syn3": "Trigger",
   "sentence": "An invasion would certainly precipitate a political crisis."
  },
@@ -1298,7 +1298,7 @@
  {
   "no": 145,
   "word": "Predicated",
-  "meaning": "Found or base something on",
+  "meaning": "Found or base something on.",
   "syn1": "Establish",
   "syn2": "Premise",
   "syn3": "Build",
@@ -1334,20 +1334,20 @@
  {
   "no": 149,
   "word": "Pretentious",
-  "meaning": "Expressive or affected, unwarranted or exaggerated importance, worth, or stature.",
+  "meaning": "Trying to appear more important than you actually are.",
   "syn1": "Ostentatious",
   "syn2": "Pompous",
   "syn3": "Showy",
-  "sentence": "The little inn was cleanlier and better kept than many of the more pretentious ones."
+  "sentence": "The little inn was cleaner and better kept than many of the more pretentious ones."
  },
  {
   "no": 150,
   "word": "Prevalent",
-  "meaning": "Widespread in a particular area or a particular time",
+  "meaning": "Widespread in a particular area or a particular time.",
   "syn1": "Prevailing",
   "syn2": "Pervasive",
   "syn3": "Predominant",
-  "sentence": "The distribution of engineers amongst many professions has exploded the myth prevalent in society that people always work in the same field as they receive their formal education in."
+  "sentence": "The distribution of engineers amongst many professions has exploded the myth prevalent in society that people always work in the same field as the one in which they received their formal education."
  },
  {
   "no": 151,
@@ -1383,12 +1383,12 @@
   "syn1": "Restraining",
   "syn2": "Repressive",
   "syn3": "Inhibitory",
-  "sentence": "The new policies are cost prohibitive and require time and patience."
+  "sentence": "The new policies are cost-prohibitive and require time and patience."
  },
  {
   "no": 155,
   "word": "Proliferate",
-  "meaning": "Increase rapidly in number",
+  "meaning": "Increase rapidly in number.",
   "syn1": "Burgeon",
   "syn2": "Multiply",
   "syn3": "Snowball",
@@ -1415,10 +1415,10 @@
  {
   "no": 158,
   "word": "Prudence",
-  "meaning": "The quality of being cautious",
+  "meaning": "The quality of being cautious.",
   "syn1": "Sagacity",
   "syn2": "Shrewdness",
-  "syn3": "Circumspect",
+  "syn3": "Circumspection",
   "sentence": "The student approached the SAT exam with great prudence as she knew that the level of difficulty of questions could be high."
  },
  {
@@ -1478,7 +1478,7 @@
  {
   "no": 165,
   "word": "Repudiate",
-  "meaning": "Refuse to accept; deny the truth or validity of; reject",
+  "meaning": "Refuse to accept; deny the truth or validity of; reject.",
   "syn1": "Refute",
   "syn2": "Negate",
   "syn3": "Rebuff",
@@ -1509,7 +1509,7 @@
   "syn1": "Meticulous",
   "syn2": "Diligent",
   "syn3": "Assiduous",
-  "sentence": "The researchers carried out marking their observations with a scrupulous attention to detail to prevent capture of any faulty data."
+  "sentence": "The researchers recorded their observations with scrupulous attention to detail to avoid capturing faulty data."
  },
  {
   "no": 169,
@@ -1532,7 +1532,7 @@
  {
   "no": 171,
   "word": "Sighted",
-  "meaning": "Having the ability to see",
+  "meaning": "Caught sight of; glimpsed.",
   "syn1": "Observe",
   "syn2": "Glimpse",
   "syn3": "Behold",
@@ -1552,18 +1552,18 @@
   "word": "Sporadic",
   "meaning": "Occurring at irregular intervals or only in a few places; scattered or isolated.",
   "syn1": "Occasional",
-  "syn2": "Periodical",
+  "syn2": "Irregular",
   "syn3": "Intermittent",
   "sentence": "The sporadic nature of the India-Pakistan cricket games ensures a high attendance on every single occasion."
  },
  {
   "no": 174,
   "word": "Spurious",
-  "meaning": "Not being what it purports to be; false or fake",
+  "meaning": "Not being what it purports to be; false or fake.",
   "syn1": "Fraudulent",
   "syn2": "Counterfeit",
   "syn3": "Fallacious",
-  "sentence": "In some situations, spurious images are brought together to propel a propaganda."
+  "sentence": "In some situations, spurious images are brought together to spread propaganda."
  },
  {
   "no": 175,
@@ -1577,7 +1577,7 @@
  {
   "no": 176,
   "word": "Stipulate",
-  "meaning": "Demand or specify a requirement, typically as part of an agreement",
+  "meaning": "Demand or specify a requirement, typically as part of an agreement.",
   "syn1": "Specify",
   "syn2": "Impose",
   "syn3": "Lay down",
@@ -1622,7 +1622,7 @@
  {
   "no": 181,
   "word": "Superfluous",
-  "meaning": "Unnecessary, especially through being more than enough",
+  "meaning": "Unnecessary, especially through being more than enough.",
   "syn1": "Surplus",
   "syn2": "Inessential",
   "syn3": "Redundant",
@@ -1640,7 +1640,7 @@
  {
   "no": 183,
   "word": "Supplant",
-  "meaning": "Supersede and replace",
+  "meaning": "Supersede and replace.",
   "syn1": "Oust",
   "syn2": "Depose",
   "syn3": "Overthrow",
@@ -1658,7 +1658,7 @@
  {
   "no": 185,
   "word": "Sway",
-  "meaning": "Control or Influence",
+  "meaning": "Control or influence.",
   "syn1": "Command",
   "syn2": "Authority",
   "syn3": "Ascendancy",
@@ -1706,13 +1706,13 @@
   "meaning": "Present, appearing, or found everywhere.",
   "syn1": "Omnipresent",
   "syn2": "Universal",
-  "syn3": "Popular",
+  "syn3": "Pervasive",
   "sentence": "As with all new technologies, costs are expected to fall as the products become more ubiquitous."
  },
  {
   "no": 191,
   "word": "Unequivocal",
-  "meaning": "Leaving no doubt; Unambiguous",
+  "meaning": "Leaving no doubt; unambiguous.",
   "syn1": "Indubitable",
   "syn2": "Incontrovertible",
   "syn3": "Unmistakable",
@@ -1720,7 +1720,7 @@
  },
  {
   "no": 192,
-  "word": "Unpalatability",
+  "word": "Unpalatable",
   "meaning": "Not palatable; unpleasant to the taste; disagreeable or unacceptable.",
   "syn1": "Distasteful",
   "syn2": "Horrible",
@@ -1730,7 +1730,7 @@
  {
   "no": 193,
   "word": "Unprecedented",
-  "meaning": "Never done or known before",
+  "meaning": "Never done or known before.",
   "syn1": "Groundbreaking",
   "syn2": "Extraordinary",
   "syn3": "Prodigious",
@@ -1757,7 +1757,7 @@
  {
   "no": 196,
   "word": "Unyielding",
-  "meaning": "Not giving way to pressure (Material or Structure); unlikely to be swayed (Of a person)",
+  "meaning": "Not giving way to pressure (of a material or structure); unlikely to be swayed (of a person).",
   "syn1": "Inflexible",
   "syn2": "Inelastic",
   "syn3": "Resolute",
@@ -1766,7 +1766,7 @@
  {
   "no": 197,
   "word": "Vacillating",
-  "meaning": "Wavering between different opinions or actions",
+  "meaning": "Wavering between different opinions or actions.",
   "syn1": "Fluctuate",
   "syn2": "Oscillate",
   "syn3": "Teetering",
@@ -1775,7 +1775,7 @@
  {
   "no": 198,
   "word": "Vacuity",
-  "meaning": "Lack of thought or intelligence",
+  "meaning": "Lack of thought or intelligence.",
   "syn1": "Vacancy",
   "syn2": "Inanity",
   "syn3": "Stupidity",
@@ -1788,7 +1788,7 @@
   "syn1": "Grassy",
   "syn2": "Flourishing",
   "syn3": "Teeming",
-  "sentence": "The colorful and verdant front gardens in front of homes is now a thing of the past."
+  "sentence": "The colorful and verdant front gardens in front of homes are now things of the past."
  },
  {
   "no": 200,
@@ -1802,7 +1802,7 @@
  {
   "no": 201,
   "word": "Vindicate",
-  "meaning": "Clear someone of blame or suspicion; show or prove to be right, reasonable, or justified",
+  "meaning": "Clear someone of blame or suspicion; show or prove to be right, reasonable, or justified.",
   "syn1": "Redeem",
   "syn2": "Exonerate",
   "syn3": "Acquit",
@@ -1902,9 +1902,9 @@
   "no": 212,
   "word": "Aggravate",
   "meaning": "Make (a problem, injury, or offense) worse or more serious.",
-  "syn1": "Exasperate",
-  "syn2": "Incense",
-  "syn3": "Antagonize",
+  "syn1": "Worsen",
+  "syn2": "Exacerbate",
+  "syn3": "Compound",
   "sentence": "A bad situation can be aggravated if the plan to deal with it is not well thought through."
  },
  {
@@ -1959,12 +1959,12 @@
   "syn1": "Genuine",
   "syn2": "Actual",
   "syn3": "Veritable",
-  "sentence": "He is in no doubt that the document is an authentic copy of the original."
+  "sentence": "He is in no doubt that the document is authentic."
  },
  {
   "no": 219,
   "word": "Autonomy",
-  "meaning": "Independence or freedom, as of the will or one's actions",
+  "meaning": "Independence or freedom, as of the will or one's actions.",
   "syn1": "Liberty",
   "syn2": "Emancipation",
   "syn3": "Volition",
@@ -1973,7 +1973,7 @@
  {
   "no": 220,
   "word": "Aversion",
-  "meaning": "A strong dislike or disinclination",
+  "meaning": "A strong dislike or disinclination.",
   "syn1": "Disinclination",
   "syn2": "Detestation",
   "syn3": "Antipathy",
@@ -2000,7 +2000,7 @@
  {
   "no": 223,
   "word": "Compromised",
-  "meaning": "To make a deal; To make vulnerable.",
+  "meaning": "To make a deal; to make vulnerable.",
   "syn1": "Come to terms",
   "syn2": "Concession",
   "syn3": "Undermine",
@@ -2027,7 +2027,7 @@
  {
   "no": 226,
   "word": "Confounded",
-  "meaning": "Used for emphasis, especially to express anger or annoyance.",
+  "meaning": "Caused surprise or confusion in (someone).",
   "syn1": "Astonish",
   "syn2": "Dumbfound",
   "syn3": "Stagger",
@@ -2081,7 +2081,7 @@
  {
   "no": 232,
   "word": "Corpus",
-  "meaning": "A large set of texts which is considered to be representative of a language",
+  "meaning": "A large set of texts which is considered to be representative of a language.",
   "syn1": "Collection",
   "syn2": "Compilation",
   "syn3": "Aggregation",
@@ -2162,9 +2162,9 @@
  {
   "no": 241,
   "word": "Dissipate",
-  "meaning": "Disappear or cause to disappear; waste or fritter away",
+  "meaning": "Disappear or cause to disappear; waste or fritter away.",
   "syn1": "Vanish",
-  "syn2": "Dispense",
+  "syn2": "Disperse",
   "syn3": "Squander",
   "sentence": "The end of the strike did little to dissipate the anger of the public at the government."
  },
@@ -2184,7 +2184,7 @@
   "syn1": "Commence",
   "syn2": "Launch",
   "syn3": "Initiate",
-  "sentence": "He embarked on a new career after Artificial Intelligence negated her old one."
+  "sentence": "He embarked on a new career after Artificial Intelligence negated his old one."
  },
  {
   "no": 244,
@@ -2193,14 +2193,14 @@
   "syn1": "Undergo",
   "syn2": "Live through",
   "syn3": "Persist",
-  "sentence": "Just as the city of Delhi has endured through time so have its people endured through colonial domination."
+  "sentence": "Just as the city of Delhi has endured through time, so have its people endured through colonial domination."
  },
  {
   "no": 245,
   "word": "Enigma",
   "meaning": "A person or thing that is mysterious or difficult to understand.",
-  "syn1": "Inscrutable",
-  "syn2": "Obscure",
+  "syn1": "Mystery",
+  "syn2": "Puzzle",
   "syn3": "Conundrum",
   "sentence": "Despite the enigma of the singularity, the big bang theory is unquestionably one of the most successful ideas in the history of science."
  },
@@ -2216,11 +2216,11 @@
  {
   "no": 247,
   "word": "Exhaustive",
-  "meaning": "Including or considering all elements or aspects",
+  "meaning": "Including or considering all elements or aspects.",
   "syn1": "Comprehensive",
   "syn2": "Thorough",
   "syn3": "Extensive",
-  "sentence": "In high level team sports, teams conducted an exhaustive analysis of every game to improve themselves."
+  "sentence": "In high-level team sports, teams conduct an exhaustive analysis of every game to improve themselves."
  },
  {
   "no": 248,
@@ -2236,7 +2236,7 @@
   "word": "Exploiting",
   "meaning": "Make full use of and derive benefit from (a resource).",
   "syn1": "Utilize",
-  "syn2": "Harnessing",
+  "syn2": "Harness",
   "syn3": "Employ",
   "sentence": "We need to make sure that we exploit our resources as fully as possible."
  },
@@ -2271,16 +2271,16 @@
   "no": 253,
   "word": "Forage",
   "meaning": "(Of a person or animal) search widely for food or provisions.",
-  "syn1": "Pasturage",
-  "syn2": "Herbage",
-  "syn3": "Fodder",
+  "syn1": "Scavenge",
+  "syn2": "Rummage",
+  "syn3": "Hunt",
   "sentence": "In the warmer months, squirrels forage for a wide variety of foods, ranging from mushrooms to berries."
  },
  {
   "no": 254,
   "word": "Foresight",
   "meaning": "The ability to predict what will happen or be needed in the future.",
-  "syn1": "Anticipating",
+  "syn1": "Anticipation",
   "syn2": "Provision",
   "syn3": "Prescience",
   "sentence": "A little foresight could have avoided most of our supply problems."
@@ -2288,7 +2288,7 @@
  {
   "no": 255,
   "word": "Foregone Conclusion",
-  "meaning": "An inevitable outcome or result that is obvious to everyone before it happens",
+  "meaning": "An inevitable outcome or result that is obvious to everyone before it happens.",
   "syn1": "Inevitable",
   "syn2": "Certainty",
   "syn3": "Inescapable",
@@ -2315,7 +2315,7 @@
  {
   "no": 258,
   "word": "Impervious",
-  "meaning": "Not allowing fluid to pass through.",
+  "meaning": "Not allowing fluid to pass through; unable to be affected by something.",
   "syn1": "Impermeable",
   "syn2": "Impenetrable",
   "syn3": "Impregnable",
@@ -2360,7 +2360,7 @@
  {
   "no": 263,
   "word": "Indoctrinate",
-  "meaning": "Teach (a person or group) to accept a set of beliefs uncritically",
+  "meaning": "Teach (a person or group) to accept a set of beliefs uncritically.",
   "syn1": "Brainwash",
   "syn2": "Propagandize",
   "syn3": "Condition",
@@ -2378,7 +2378,7 @@
  {
   "no": 265,
   "word": "Interface",
-  "meaning": "A point where two systems, subjects, organizations, etc. meet and interact",
+  "meaning": "A point where two systems, subjects, organizations, etc. meet and interact.",
   "syn1": "Confluence",
   "syn2": "Juncture",
   "syn3": "Assemblage",
@@ -2396,7 +2396,7 @@
  {
   "no": 267,
   "word": "Lambast",
-  "meaning": "Criticize (someone or something) harshly",
+  "meaning": "Criticize (someone or something) harshly.",
   "syn1": "Castigate",
   "syn2": "Chastise",
   "syn3": "Criticize",
@@ -2418,7 +2418,7 @@
   "syn1": "Restraint",
   "syn2": "Temperance",
   "syn3": "Discipline",
-  "sentence": "Policy moderation by incumbents has a positive significant effect on their votes."
+  "sentence": "Policy moderation by incumbents has a significant positive effect on their votes."
  },
  {
   "no": 270,
@@ -2454,7 +2454,7 @@
   "syn1": "Bring up",
   "syn2": "Rear",
   "syn3": "Foster",
-  "sentence": "Since the past 2 years, careful planning, designing and nurturing have gone into creating the state of the art testing platform at Satnpaper."
+  "sentence": "Over the past two years, careful planning, designing and nurturing have gone into creating the state-of-the-art testing platform."
  },
  {
   "no": 274,
@@ -2481,7 +2481,7 @@
   "syn1": "Continue",
   "syn2": "Extend",
   "syn3": "Sustain",
-  "sentence": "The dam can grow as it is fed by more liquid above it, and the problem perpetuates."
+  "sentence": "The dam can grow as it is fed by more liquid above it, and the problem perpetuates itself."
  },
  {
   "no": 277,
@@ -2495,7 +2495,7 @@
  {
   "no": 278,
   "word": "Precarious",
-  "meaning": "Not securely held or in position; dangerously likely to fall or collapse; dependent on chance",
+  "meaning": "Not securely held or in position; dangerously likely to fall or collapse; dependent on chance.",
   "syn1": "Unreliable",
   "syn2": "Perilous",
   "syn3": "Uncertain",
@@ -2513,7 +2513,7 @@
  {
   "no": 280,
   "word": "Proclivity",
-  "meaning": "A tendency to choose or do something regularly",
+  "meaning": "A tendency to choose or do something regularly.",
   "syn1": "Inclination",
   "syn2": "Propensity",
   "syn3": "Penchant",
@@ -2549,7 +2549,7 @@
  {
   "no": 284,
   "word": "Proxy",
-  "meaning": "A person holding authority to act for another",
+  "meaning": "A person holding authority to act for another.",
   "syn1": "Substitute",
   "syn2": "Delegate",
   "syn3": "Surrogate",
@@ -2585,7 +2585,7 @@
  {
   "no": 288,
   "word": "Reminiscent",
-  "meaning": "Tending to remind one of something",
+  "meaning": "Tending to remind one of something.",
   "syn1": "Evocative of",
   "syn2": "Remindful of",
   "syn3": "Similar to",
@@ -2612,7 +2612,7 @@
  {
   "no": 291,
   "word": "Resonate",
-  "meaning": "If you resonate with something; it feels true or has meaning for you",
+  "meaning": "If you resonate with something, it feels true or has meaning for you.",
   "syn1": "Connect",
   "syn2": "Associate",
   "syn3": "Identify",
@@ -2669,7 +2669,7 @@
   "meaning": "Of considerable importance, size, or worth.",
   "syn1": "Considerable",
   "syn2": "Significant",
-  "syn3": "Sizeable",
+  "syn3": "Sizable",
   "sentence": "She inherited a substantial fortune from her grandmother."
  },
  {
@@ -2766,7 +2766,7 @@
   "no": 308,
   "word": "Meeker",
   "meaning": "More quiet, gentle, and easily imposed on; submissive.",
-  "syn1": "Timider",
+  "syn1": "More timid",
   "syn2": "Humbler",
   "syn3": "Gentler",
   "sentence": "Compared to his confident brother, Daniel seemed meeker and less assertive."
