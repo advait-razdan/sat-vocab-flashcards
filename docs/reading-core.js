@@ -24,16 +24,25 @@ export function mergeReading(a, b) {
   return { version: 1, attempts, marks };
 }
 
-// A random question not yet attempted, optionally limited to one type.
+// Whether a question passes the type and band filters ("all" or missing lets everything through).
+export function matches(q, filter = {}) {
+  const { type = "all", band = "all" } = filter;
+  return (type === "all" || q.type === type) && (band === "all" || q.difficulty === band);
+}
+
+// A random question not yet attempted that passes the filters.
+// With band "all", the new banded questions come before the older set.
 // Returns null when every matching question has been done.
-export function pickNext(questions, attempts, type = "all", random = Math.random, exclude = null) {
-  const pool = questions.filter((q) => !attempts[q.id] && (type === "all" || q.type === type) && q.id !== exclude);
-  return pool.length ? pool[Math.floor(random() * pool.length)] : null;
+export function pickNext(questions, attempts, filter = {}, random = Math.random, exclude = null) {
+  const pool = questions.filter((q) => !attempts[q.id] && matches(q, filter) && q.id !== exclude);
+  const banded = pool.filter((q) => q.difficulty !== "older");
+  const from = banded.length ? banded : pool;
+  return from.length ? from[Math.floor(random() * from.length)] : null;
 }
 
 // A random question answered wrong, for redo practice once everything is done.
-export function pickRedo(questions, attempts, type = "all", random = Math.random, exclude = null) {
-  const pool = questions.filter((q) => attempts[q.id] && !attempts[q.id].correct && (type === "all" || q.type === type) && q.id !== exclude);
+export function pickRedo(questions, attempts, filter = {}, random = Math.random, exclude = null) {
+  const pool = questions.filter((q) => attempts[q.id] && !attempts[q.id].correct && matches(q, filter) && q.id !== exclude);
   return pool.length ? pool[Math.floor(random() * pool.length)] : null;
 }
 
@@ -51,19 +60,24 @@ function summarize(list) {
 }
 
 // Solved count, accuracy and average time for today (since local midnight),
-// the last 7 days, the last 30 days and all time, plus all-time accuracy by type.
+// the last 7 days, the last 30 days and all time, plus all-time accuracy by type and by band.
 export function readingStats(questions, attempts, now) {
-  const typeOf = new Map(questions.map((q) => [q.id, q.type]));
-  const all = Object.entries(attempts).map(([id, a]) => ({ ...a, id, type: typeOf.get(id) }));
+  const byIdQ = new Map(questions.map((q) => [q.id, q]));
+  const all = Object.entries(attempts).map(([id, a]) => ({ ...a, id, type: byIdQ.get(id)?.type, band: byIdQ.get(id)?.difficulty }));
   const since = (t) => all.filter((a) => a.at >= t);
   const byType = {};
-  for (const a of all) (byType[a.type ?? "unknown"] ??= []).push(a);
+  const byBand = {};
+  for (const a of all) {
+    (byType[a.type ?? "unknown"] ??= []).push(a);
+    (byBand[a.band ?? "unknown"] ??= []).push(a);
+  }
   return {
     today: summarize(since(startOfLocalDay(now))),
     week: summarize(since(now - 7 * DAY)),
     month: summarize(since(now - 30 * DAY)),
     all: summarize(all),
     byType: Object.fromEntries(Object.entries(byType).map(([t, l]) => [t, summarize(l)])),
+    byBand: Object.fromEntries(Object.entries(byBand).map(([b, l]) => [b, summarize(l)])),
   };
 }
 

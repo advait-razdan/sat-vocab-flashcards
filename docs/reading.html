@@ -37,13 +37,27 @@
       <div class="r-toolbar">
         <p class="r-timer" id="timer" aria-label="Time on this question">0:00</p>
         <label class="r-filter">
+          <span class="visually-hidden">Difficulty band</span>
+          <select id="band-filter">
+            <option value="all">All bands</option>
+            <option value="band7">Band 7</option>
+            <option value="band6">Band 6</option>
+            <option value="older">Older set</option>
+          </select>
+        </label>
+        <label class="r-filter">
           <span class="visually-hidden">Question type</span>
           <select id="type-filter">
             <option value="all">All types</option>
-            <option value="inference">Inference</option>
-            <option value="evidence">Evidence</option>
+            <option value="central-ideas">Central ideas and details</option>
+            <option value="inferences">Inferences</option>
+            <option value="textual-evidence">Textual evidence</option>
             <option value="quantitative">Graphs and tables</option>
-            <option value="structure">Structure and paired texts</option>
+            <option value="words-in-context">Words in context</option>
+            <option value="structure-purpose">Structure and purpose</option>
+            <option value="cross-text">Paired texts</option>
+            <option value="rhetorical-synthesis">Rhetorical synthesis</option>
+            <option value="transitions">Transitions</option>
           </select>
         </label>
         <p class="r-count" id="done-count"></p>
@@ -54,6 +68,8 @@
     <section id="stats-view" aria-label="Statistics" hidden>
       <h2 class="visually-hidden">Statistics</h2>
       <div class="r-tiles" id="stat-tiles"></div>
+      <h3 class="r-h3">Accuracy by band (all time)</h3>
+      <div class="r-types" id="stat-bands"></div>
       <h3 class="r-h3">Accuracy by type (all time)</h3>
       <div class="r-types" id="stat-types"></div>
       <h3 class="r-h3">History</h3>

@@ -1,6 +1,6 @@
 // Offline support: cache the whole app on install, serve it cache-first.
 // Bump VERSION whenever any file below changes, so devices pick up the update.
-const VERSION = "v4";
+const VERSION = "v5";
 const CACHE = `satflash-${VERSION}`;
 const FILES = [
   "./",

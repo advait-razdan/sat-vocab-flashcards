@@ -4,7 +4,8 @@ import { readFileSync } from "node:fs";
 
 const path = process.argv[2] ?? new URL("../docs/questions.json", import.meta.url);
 const qs = JSON.parse(readFileSync(path, "utf8"));
-const TYPES = ["inference", "evidence", "quantitative", "structure"];
+const TYPES = ["central-ideas", "inferences", "textual-evidence", "quantitative", "words-in-context", "structure-purpose", "cross-text", "rhetorical-synthesis", "transitions"];
+const BANDS = ["band7", "band6", "older"];
 const errors = [];
 const ids = new Set();
 const str = (v) => typeof v === "string" && v.trim().length > 0;
@@ -16,7 +17,7 @@ for (const [n, q] of qs.entries()) {
   else if (ids.has(q.id)) err("duplicate id");
   ids.add(q.id);
   if (!TYPES.includes(q.type)) err(`bad type ${q.type}`);
-  if (!["hard", "medium"].includes(q.difficulty)) err(`bad difficulty ${q.difficulty}`);
+  if (!BANDS.includes(q.difficulty)) err(`bad difficulty ${q.difficulty}`);
   if (typeof q.intro !== "string") err("intro must be a string");
   if (!Array.isArray(q.passage) || !q.passage.length || !q.passage.every((b) => typeof b.label === "string" && str(b.text))) err("bad passage");
   if (!str(q.question)) err("missing question");
@@ -52,6 +53,14 @@ for (const [n, q] of qs.entries()) {
 const count = (key) => qs.reduce((m, q) => ((m[q[key]] = (m[q[key]] ?? 0) + 1), m), {});
 const letters = qs.reduce((m, q) => ((m["ABCD"[q.answer]] = (m["ABCD"[q.answer]] ?? 0) + 1), m), {});
 console.log(`${qs.length} questions`, count("type"), count("difficulty"), "answers", letters);
+const fresh = qs.filter((q) => q.difficulty !== "older");
+if (fresh.length) {
+  const by = (key) => fresh.reduce((m, q) => ((m[q[key]] = (m[q[key]] ?? 0) + 1), m), {});
+  const freshLetters = fresh.reduce((m, q) => ((m["ABCD"[q.answer]] = (m["ABCD"[q.answer]] ?? 0) + 1), m), {});
+  const longest = fresh.filter((q) => q.choices.every((c, i) => i === q.answer || c.length < q.choices[q.answer].length)).map((q) => q.id);
+  console.log(`banded: ${fresh.length}`, by("type"), "answers", freshLetters);
+  if (longest.length) console.log(`answer is the longest choice in ${longest.length}: ${longest.join(", ")}`);
+}
 if (errors.length) {
   console.error(errors.join("\n"));
   process.exit(1);

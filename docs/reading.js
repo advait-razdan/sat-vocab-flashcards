@@ -1,12 +1,24 @@
-import { pickNext, pickRedo, readingStats, history, addHighlight, mergeReading } from "./reading-core.js";
+import { matches, pickNext, pickRedo, readingStats, history, addHighlight, mergeReading } from "./reading-core.js";
 import { loadReading, saveReading, syncReading, hasToken, connect, disconnect, loadLocal, saveLocal } from "./sync.js";
 import { mergeProgress } from "./srs.js";
 
 const $ = (id) => document.getElementById(id);
 const finePointer = matchMedia("(hover: hover) and (pointer: fine)");
 const LETTERS = ["A", "B", "C", "D"];
-const TYPE_LABEL = { inference: "Inference", evidence: "Evidence", quantitative: "Graphs and tables", structure: "Structure and paired texts" };
+const TYPE_LABEL = {
+  "central-ideas": "Central ideas and details",
+  inferences: "Inferences",
+  "textual-evidence": "Textual evidence",
+  quantitative: "Graphs and tables",
+  "words-in-context": "Words in context",
+  "structure-purpose": "Structure and purpose",
+  "cross-text": "Paired texts",
+  "rhetorical-synthesis": "Rhetorical synthesis",
+  transitions: "Transitions",
+};
+const BAND_LABEL = { band7: "Band 7", band6: "Band 6", older: "Older set" };
 const FILTER_KEY = "satflash.readingFilter";
+const BAND_KEY = "satflash.readingBand";
 
 let questions = [];
 let byId = new Map();
@@ -15,7 +27,11 @@ let view = "practice"; // practice | stats | review
 // The question on screen in practice view.
 let cur = null; // { q, redo, choice, struck: Set, checked, elapsed, since }
 let filter = "all";
-try { filter = localStorage.getItem(FILTER_KEY) || "all"; } catch {}
+let band = "all";
+try { filter = localStorage.getItem(FILTER_KEY) || "all"; band = localStorage.getItem(BAND_KEY) || "all"; } catch {}
+if (filter !== "all" && !TYPE_LABEL[filter]) filter = "all";
+if (band !== "all" && !BAND_LABEL[band]) band = "all";
+const filters = () => ({ type: filter, band });
 
 const esc = (s) => String(s).replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" })[c]);
 // Passage markup: [u]underlined[/u], *title in italics*, \n line break.
@@ -341,7 +357,7 @@ function cardHtml(q, st, { review = false } = {}) {
       ? `<p class="r-result" data-ok="${ok}">${ok ? "Correct" : `Incorrect. The answer is ${LETTERS[q.answer]}.`}${cur.redo ? ` <span class="r-result-meta">Redo, not counted in stats</span>` : ""}</p><button class="btn btn-hit" id="next" type="button">Next question</button>`
       : `<button class="btn btn-hit" id="check" type="button" ${st.choice == null ? "disabled" : ""}>Check answer</button>`;
   return `
-    <p class="r-meta">${esc(TYPE_LABEL[q.type])}${q.difficulty === "hard" ? " · Hard" : " · Medium"}${!review && cur?.redo ? " · Redo" : ""}</p>
+    <p class="r-meta">${esc(BAND_LABEL[q.difficulty])} · ${esc(TYPE_LABEL[q.type])}${!review && cur?.redo ? " · Redo" : ""}</p>
     ${q.intro ? `<p class="r-intro">${fmt(q.intro)}</p>` : ""}
     ${figureHtml(q.figure)}
     <div class="r-passage"></div>
@@ -365,7 +381,7 @@ function renderCard(el, q, st, opts) {
 const qEl = $("question");
 
 function updateCount() {
-  const pool = filter === "all" ? questions : questions.filter((q) => q.type === filter);
+  const pool = questions.filter((q) => matches(q, filters()));
   const done = pool.filter((q) => reading.attempts[q.id]).length;
   $("done-count").textContent = `${done} of ${pool.length} done`;
 }
@@ -394,8 +410,9 @@ function showQuestion(q, redo = false) {
 function showDone() {
   cur = null;
   $("timer").textContent = "0:00";
-  const wrong = pickRedo(questions, reading.attempts, filter);
-  const what = filter === "all" ? "every question" : `every ${TYPE_LABEL[filter].toLowerCase()} question`;
+  const wrong = pickRedo(questions, reading.attempts, filters());
+  const kind = [band === "all" ? "" : BAND_LABEL[band], filter === "all" ? "" : TYPE_LABEL[filter].toLowerCase()].filter(Boolean).join(" ");
+  const what = kind ? `every ${kind} question` : "every question";
   delete qEl.dataset.qid;
   qEl.innerHTML = `<div class="r-done">
     <h2>You've done ${what}.</h2>
@@ -408,10 +425,10 @@ function showDone() {
 function nextQuestion() {
   const exclude = cur?.q.id;
   if (cur?.redo) {
-    const r = pickRedo(questions, reading.attempts, filter, Math.random, exclude) ?? pickRedo(questions, reading.attempts, filter);
+    const r = pickRedo(questions, reading.attempts, filters(), Math.random, exclude) ?? pickRedo(questions, reading.attempts, filters());
     if (r) return showQuestion(r, true);
   }
-  const q = pickNext(questions, reading.attempts, filter, Math.random, exclude);
+  const q = pickNext(questions, reading.attempts, filters(), Math.random, exclude);
   if (q) showQuestion(q);
   else showDone();
   scrollTo({ top: 0 });
@@ -467,7 +484,7 @@ qEl.addEventListener("click", (e) => {
   if (e.target.closest("#check")) return check();
   if (e.target.closest("#next")) return nextQuestion();
   if (e.target.closest("#redo")) {
-    const r = pickRedo(questions, reading.attempts, filter);
+    const r = pickRedo(questions, reading.attempts, filters());
     if (r) showQuestion(r, true);
   }
 });
@@ -475,8 +492,15 @@ qEl.addEventListener("click", (e) => {
 $("type-filter").addEventListener("change", (e) => {
   filter = e.target.value;
   try { localStorage.setItem(FILTER_KEY, filter); } catch {}
-  // Swap the question unless it's already the right type or has been answered.
-  if (!cur || (!cur.checked && filter !== "all" && cur.q.type !== filter)) nextQuestion();
+  // Swap the question unless it already fits or has been answered.
+  if (!cur || (!cur.checked && !matches(cur.q, filters()))) nextQuestion();
+  else updateCount();
+});
+
+$("band-filter").addEventListener("change", (e) => {
+  band = e.target.value;
+  try { localStorage.setItem(BAND_KEY, band); } catch {}
+  if (!cur || (!cur.checked && !matches(cur.q, filters()))) nextQuestion();
   else updateCount();
 });
 
@@ -501,15 +525,17 @@ function renderStats() {
         <div><dt>Avg time</dt><dd>${t.avgMs == null ? "–" : clock(t.avgMs)}</dd></div>
       </dl>
     </div>`).join("");
-  $("stat-types").innerHTML = Object.keys(TYPE_LABEL).map((t) => {
-    const x = s.byType[t] ?? { solved: 0, correct: 0, accuracy: null };
-    const total = questions.filter((q) => q.type === t).length;
+  const meters = (labels, by, key) => Object.keys(labels).map((t) => {
+    const x = by[t] ?? { solved: 0, correct: 0, accuracy: null };
+    const total = questions.filter((q) => q[key] === t).length;
     return `<div class="r-type">
-      <p class="r-type-name">${TYPE_LABEL[t]}</p>
+      <p class="r-type-name">${labels[t]}</p>
       <p class="r-type-num">${pct(x.accuracy)} <span>${x.correct} of ${x.solved} right · ${x.solved} of ${total} done</span></p>
       <div class="r-meter" aria-hidden="true"><span style="width:${(x.accuracy ?? 0) * 100}%"></span></div>
     </div>`;
   }).join("");
+  $("stat-bands").innerHTML = meters(BAND_LABEL, s.byBand, "difficulty");
+  $("stat-types").innerHTML = meters(TYPE_LABEL, s.byType, "type");
   const h = history(reading.attempts).filter((a) => byId.has(a.id));
   $("history").innerHTML = h.length
     ? h.map((a) => {
@@ -518,7 +544,7 @@ function renderStats() {
         return `<li><button type="button" data-id="${a.id}">
           <span class="r-h-mark" data-ok="${a.correct}">${a.correct ? "Right" : "Wrong"}</span>
           <span class="r-h-text">${esc(snippet(q))}</span>
-          <span class="r-h-meta">${TYPE_LABEL[q.type]} · ${clock(a.ms)} · ${d.toLocaleDateString([], { month: "short", day: "numeric" })}, ${d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}</span>
+          <span class="r-h-meta">${BAND_LABEL[q.difficulty]} · ${TYPE_LABEL[q.type]} · ${clock(a.ms)} · ${d.toLocaleDateString([], { month: "short", day: "numeric" })}, ${d.toLocaleTimeString([], { hour: "numeric", minute: "2-digit" })}</span>
         </button></li>`;
       }).join("")
     : `<li class="empty">No questions answered yet.</li>`;
@@ -693,6 +719,7 @@ document.addEventListener("keydown", (e) => {
 
 async function start() {
   $("type-filter").value = filter;
+  $("band-filter").value = band;
   try {
     const res = await fetch("questions.json");
     if (!res.ok) throw new Error(res.status);

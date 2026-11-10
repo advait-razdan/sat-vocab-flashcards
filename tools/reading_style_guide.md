@@ -1,6 +1,47 @@
 # SAT Reading question style guide
 
+> **Nov 2026 update: read "Band 7 recipe" (below) first.** The user found the first 302 questions (now `difficulty: "older"`) far too easy: 16 out of 16 right. New questions are labelled `band7` (about 80%) or `band6` (about 20%), matching College Board's Question Bank score bands. Hard = bands 6–7, and 7 is the hardest tier. `type` is now one of College Board's skills (see JSON format).
+
 Used to write the bank in `docs/questions.json`. It is based on hard reference questions from the Digital SAT Reading and Writing section (three real College Board questions and about twenty from a prep platform). No reference question is copied into the bank; write new ones.
+
+## Band 7 recipe (how College Board's hardest items differ from the "older" set)
+Sources: College Board's Assessment Framework for the Digital SAT Suite (v4, 2026), band-7 items in the official Educator Question Bank (satsuitequestionbank.collegeboard.org), PrepMaven, UWorld and The Test Advantage write-ups. Model on them; never copy them.
+
+College Board says difficulty comes from the *passage and the reasoning*, not from a tricky stem. The stem stays plain. Distractors are built from real student errors and become more plausible as the target difficulty rises.
+
+**Passage**
+- Grades 12–14 complexity, 100–150 words. Front-load sentences (a long clause before the main verb), use dashes and parentheticals, nest qualifications, and use abstract academic words.
+- Literature: pre-1929 prose, drama or poetry, with old syntax and bracketed glosses for archaic words. About 1 in 6 band-7 items is literary.
+- The key fact is often stated indirectly or split across two sentences. Sometimes the crucial word is a scare-word ("putatively", "ostensibly") or a hedge ("or I presume to think so").
+
+**Key (correct answer)**
+- Paraphrases at a higher level of abstraction. It does NOT reuse the passage's distinctive words. For example, "other qualities integral to the experience of reading the poem" stands in for alliteration.
+- Often understated or hedged ("can incline", "is merely speculative", "is not by itself indicative of", "few if any"). It may sound weaker than a distractor.
+- For weaken/support, the key often works indirectly: it removes the variable the explanation depends on (everyone withdrew the transfer as cash), makes the evidence inconclusive (too poorly preserved to identify as either), or shows the evidence fits the rival explanation equally well.
+- Sometimes counterintuitive. The key can be the opposite of what the topic suggests (hummingbirds visiting low-nectar flowers), or follow from combining two numbers the passage never puts side by side.
+
+**Distractors (the most important part)**
+- At least one distractor must **compete** with the key: a student who understood the passage at "medium" level should pick it. Two competing distractors is typical at band 7. The "older" set failed here, because its distractors could be ruled out on a first read.
+- Trap menu (use two or three per question):
+  1. **Half-right + add-on**: the first half is exactly right, then it adds an unsupported cause, motive or scope ("…came to realize it was a robust model").
+  2. **Recycled language**: it reuses the passage's most striking words in a claim the passage doesn't make.
+  3. **Over-specified**: it narrows the passage's general claim to a specific one ("a long tradition of *female-focused* retellings" when the passage says retellings in general).
+  4. **Wrong direction / wrong group**: the right relationship, reversed, or attributed to the wrong person, text or group.
+  5. **True but not the task**: accurate, but answers a different question (supports instead of weakens, or describes the data without addressing the claim).
+  6. **One half of a two-part claim** (support/quotation): it matches "aware of" but not "deliberately applied", or the merits but not the displeasure.
+  7. **Common meaning** (Words in Context): the everyday sense of the word, or a word that suits the passage's mood but not its logic.
+  8. **Off-by-one / wrong filter** (data): a value off by one point, the earliest year of the wrong category, or "all adults" vs. "resolution makers".
+  9. **Literal reading of irony**: it takes a character's or narrator's ironic words at face value.
+- All four choices have similar length and register. Abstract keys need abstract distractors.
+
+**Band 6** keeps these features with one fewer layer: a slightly clearer passage, or one competing distractor instead of two.
+
+**Self-check before keeping a question**: (a) Would a careful medium-level student pick a distractor? If not, it is not hard enough. (b) Can an expert defend only the key? (c) Does the key avoid the passage's own distinctive words?
+
+## Additional types (Expression of Ideas, new in Nov 2026)
+- `rhetorical-synthesis`: "While researching a topic, a student has taken the following notes:" followed by 5–6 bullet notes, one per line, starting "• ". Stem: "The student wants to [goal]. Which choice most effectively uses relevant information from the notes to accomplish this goal?" Hard version: the goal has two conditions (e.g. "emphasize a difference in X" AND "for an audience unfamiliar with Y", so the term must be explained). Distractors are accurate sentences from the notes that meet only one condition, emphasize a similarity, or present the wrong item.
+- `transitions`: the passage contains "______" where a transition belongs. Stem: "Which choice completes the text with the most logical transition?" Choices are transition words or phrases. Hard version: the relationship is subtle (concession vs. contrast, elaboration vs. result, "granted" vs. "nevertheless", "in effect" vs. "by contrast"), so the reader must follow the logic of the sentence two before the blank.
+- `words-in-context` (keep rare, because the vocab section covers vocabulary): "As used in the text, what does the word "X" most nearly mean?" with a familiar word in a secondary sense, or "Which choice completes the text with the most logical and precise word or phrase?" where the clue sits in a later sentence or a contrast.
 
 ## The format of a Digital SAT reading question
 - One short passage (usually 25–150 words; paired texts are about 60–110 words each), sometimes with an intro line in italics-style plain text such as "The following text is adapted from Willa Cather's 1913 novel *O Pioneers!*. Alexandra is speaking to her brother."
@@ -60,7 +101,7 @@ Use these stems (they are the College Board's real wording; reusing a stem is fi
 Wrong choices should be about as long and as formal as the right one. The right answer must not be the longest or the only one using words from the passage.
 
 ## Writing rules
-- `difficulty`: about 80% "hard" (like the real SAT hard questions above), 20% "medium".
+- `difficulty`: about 80% `band7`, 20% `band6`.
 - Balance the correct letter: across each batch, about a quarter each for A, B, C, D.
 - Vary topics: natural science (biology, ecology, geology, astronomy, chemistry), social science (economics, psychology, archaeology, linguistics, history), humanities (art, music, literature, philosophy, architecture), and literature.
 - Facts may be adapted. Studies and quotations should sound real but don't need to be exact; never write anything offensive about a real living person.
@@ -74,10 +115,10 @@ Wrong choices should be about as long and as formal as the right one. The right 
 ## JSON format
 ```json
 {
-  "id": "inf-001",
-  "type": "inference",
+  "id": "h-inf-001",
+  "type": "inferences",
   "subtype": "completes-text",
-  "difficulty": "hard",
+  "difficulty": "band7",
   "intro": "",
   "passage": [{ "label": "", "text": "..." }],
   "figure": null,
@@ -87,7 +128,8 @@ Wrong choices should be about as long and as formal as the right one. The right 
   "explanation": { "passage": "...", "choices": ["Incorrect. ...", "Incorrect. ...", "Correct. ...", "Incorrect. ..."] }
 }
 ```
-- `type`: one of `inference`, `evidence`, `quantitative`, `structure`.
+- `type`: one of `central-ideas`, `inferences`, `textual-evidence`, `quantitative`, `words-in-context`, `structure-purpose`, `cross-text`, `rhetorical-synthesis`, `transitions` (College Board's skills).
+- `difficulty`: `band7` or `band6` for new questions; `older` only for the original 302. New ids start with `h-`.
 - `passage`: array of blocks. Normal passages have one block with label "". Paired texts have two blocks labelled "Text 1" and "Text 2". A poem can use one block per stanza with label "". A line break inside a block can be written as "\n".
 - `intro`: "" when not used.
 - `answer`: index 0–3.

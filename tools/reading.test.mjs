@@ -4,10 +4,10 @@ import assert from "node:assert/strict";
 import { mergeReading, pickNext, pickRedo, readingStats, history, addHighlight, emptyReading, DAY } from "../docs/reading-core.js";
 
 const Q = [
-  { id: "a", type: "inference" },
-  { id: "b", type: "inference" },
-  { id: "c", type: "quantitative" },
-  { id: "d", type: "structure" },
+  { id: "a", type: "inferences", difficulty: "older" },
+  { id: "b", type: "inferences", difficulty: "older" },
+  { id: "c", type: "quantitative", difficulty: "older" },
+  { id: "d", type: "cross-text", difficulty: "older" },
 ];
 
 test("merge keeps the earliest attempt per question", () => {
@@ -34,17 +34,27 @@ test("merge tolerates missing or empty input", () => {
 
 test("pickNext only returns unseen questions of the chosen type", () => {
   const attempts = { a: { correct: true, at: 1, ms: 1 } };
-  for (let i = 0; i < 20; i++) assert.notEqual(pickNext(Q, attempts, "all").id, "a");
-  assert.equal(pickNext(Q, attempts, "inference").id, "b");
-  assert.equal(pickNext(Q, { ...attempts, b: { correct: false, at: 2, ms: 1 } }, "inference"), null);
-  assert.equal(pickNext(Q, {}, "all", () => 0, "a").id, "b"); // skips the excluded question
+  for (let i = 0; i < 20; i++) assert.notEqual(pickNext(Q, attempts).id, "a");
+  assert.equal(pickNext(Q, attempts, { type: "inferences" }).id, "b");
+  assert.equal(pickNext(Q, { ...attempts, b: { correct: false, at: 2, ms: 1 } }, { type: "inferences" }), null);
+  assert.equal(pickNext(Q, {}, {}, () => 0, "a").id, "b"); // skips the excluded question
+});
+
+test("pickNext serves banded questions before the older set and filters by band", () => {
+  const B = [...Q, { id: "e", type: "inferences", difficulty: "band7" }, { id: "f", type: "transitions", difficulty: "band6" }];
+  for (let i = 0; i < 20; i++) assert.ok(["e", "f"].includes(pickNext(B, {}).id));
+  assert.equal(pickNext(B, { e: { correct: true }, f: { correct: true } }, {}, () => 0).id, "a"); // then the older set
+  assert.equal(pickNext(B, {}, { band: "band6" }).id, "f");
+  assert.equal(pickNext(B, {}, { type: "inferences", band: "older" }, () => 0).id, "a");
+  assert.equal(pickNext(B, {}, { type: "transitions", band: "band7" }), null);
 });
 
 test("pickRedo only returns questions answered wrong", () => {
   const attempts = { a: { correct: true }, b: { correct: false }, c: { correct: false } };
-  assert.equal(pickRedo(Q, attempts, "inference").id, "b");
-  assert.equal(pickRedo(Q, attempts, "structure"), null);
-  assert.equal(pickRedo(Q, attempts, "all", () => 0, "b").id, "c");
+  assert.equal(pickRedo(Q, attempts, { type: "inferences" }).id, "b");
+  assert.equal(pickRedo(Q, attempts, { type: "cross-text" }), null);
+  assert.equal(pickRedo(Q, attempts, {}, () => 0, "b").id, "c");
+  assert.equal(pickRedo(Q, attempts, { band: "band7" }), null);
 });
 
 test("stats split by today, 7 days, 30 days and all time", () => {
@@ -62,8 +72,9 @@ test("stats split by today, 7 days, 30 days and all time", () => {
   assert.equal(s.week.accuracy, 0.5);
   assert.equal(s.all.correct, 3);
   assert.equal(s.week.avgMs, 45000);
-  assert.equal(s.byType.inference.solved, 2);
-  assert.equal(s.byType.inference.accuracy, 0.5);
+  assert.equal(s.byType.inferences.solved, 2);
+  assert.equal(s.byType.inferences.accuracy, 0.5);
+  assert.equal(s.byBand.older.solved, 4);
 });
 
 test("stats with no attempts have null accuracy", () => {
