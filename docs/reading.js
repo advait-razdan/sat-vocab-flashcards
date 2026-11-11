@@ -1,4 +1,4 @@
-import { matches, pickNext, pickRedo, readingStats, history, addHighlight, mergeReading } from "./reading-core.js";
+import { matches, pickNext, pickRedo, readingStats, history, timeline, addHighlight, mergeReading } from "./reading-core.js";
 import { loadReading, saveReading, syncReading, hasToken, connect, disconnect, loadLocal, saveLocal } from "./sync.js";
 import { mergeProgress } from "./srs.js";
 
@@ -19,10 +19,14 @@ const TYPE_LABEL = {
 const BAND_LABEL = { band7: "Band 7", band6: "Band 6", older: "Older set" };
 const FILTER_KEY = "satflash.readingFilter";
 const BAND_KEY = "satflash.readingBand";
+const CHART_KEY = "satflash.readingChart";
+// Stats only ever count the banded questions; the older set is never shown there.
+const STAT_BANDS = { band7: "Band 7", band6: "Band 6" };
 
 let questions = [];
 let byId = new Map();
-let reading = loadReading();
+let reading = mergeReading(loadReading(), {}); // drops deleted older-set data
+saveReading(reading);
 let view = "practice"; // practice | stats | review
 // The question on screen in practice view.
 let cur = null; // { q, redo, choice, struck: Set, checked, elapsed, since }
@@ -527,16 +531,17 @@ function renderStats() {
     </div>`).join("");
   const meters = (labels, by, key) => Object.keys(labels).map((t) => {
     const x = by[t] ?? { solved: 0, correct: 0, accuracy: null };
-    const total = questions.filter((q) => q[key] === t).length;
+    const total = questions.filter((q) => q[key] === t && q.difficulty !== "older").length;
     return `<div class="r-type">
       <p class="r-type-name">${labels[t]}</p>
       <p class="r-type-num">${pct(x.accuracy)} <span>${x.correct} of ${x.solved} right · ${x.solved} of ${total} done</span></p>
       <div class="r-meter" aria-hidden="true"><span style="width:${(x.accuracy ?? 0) * 100}%"></span></div>
     </div>`;
   }).join("");
-  $("stat-bands").innerHTML = meters(BAND_LABEL, s.byBand, "difficulty");
+  $("stat-bands").innerHTML = meters(STAT_BANDS, s.byBand, "difficulty");
   $("stat-types").innerHTML = meters(TYPE_LABEL, s.byType, "type");
-  const h = history(reading.attempts).filter((a) => byId.has(a.id));
+  renderTimeChart();
+  const h = history(reading.attempts).filter((a) => byId.has(a.id) && byId.get(a.id).difficulty !== "older");
   $("history").innerHTML = h.length
     ? h.map((a) => {
         const q = byId.get(a.id);
@@ -564,13 +569,106 @@ function setView(v) {
 }
 
 $("toggle-stats").addEventListener("click", () => setView(view === "practice" ? "stats" : "practice"));
+function openReview(id) {
+  const a = reading.attempts[id];
+  setView("review");
+  renderCard($("review"), byId.get(id), { choice: a.choice, struck: new Set(), checked: true, ms: a.ms, at: a.at }, { review: true });
+}
+
 $("history").addEventListener("click", (e) => {
   const b = e.target.closest("button[data-id]");
-  if (!b) return;
-  const a = reading.attempts[b.dataset.id];
-  setView("review");
-  renderCard($("review"), byId.get(b.dataset.id), { choice: a.choice, struck: new Set(), checked: true, ms: a.ms, at: a.at }, { review: true });
+  if (b) openReview(b.dataset.id);
 });
+
+// ---------- Time chart ----------
+
+let chartType = "all";
+try { chartType = localStorage.getItem(CHART_KEY) || "all"; } catch {}
+if (chartType !== "all" && !TYPE_LABEL[chartType]) chartType = "all";
+
+// Time per question, oldest to newest, for one question type. Right answers are
+// filled dots and wrong answers hollow rings, so right/wrong never relies on color alone.
+function renderTimeChart() {
+  const el = $("time-chart");
+  const pts = timeline(questions, reading.attempts, chartType);
+  if (!pts.length) {
+    el.innerHTML = `<p class="r-chart-empty">No ${chartType === "all" ? "" : TYPE_LABEL[chartType].toLowerCase() + " "}questions answered yet.</p>`;
+    return;
+  }
+  const width = Math.max(280, el.clientWidth || 600);
+  const n = pts.length;
+  const secs = pts.map((a) => a.ms / 1000);
+  const avg = secs.reduce((t, v) => t + v, 0) / n;
+  const step = niceStep(Math.max(...secs, 60));
+  const tickStep = Math.max(30, Math.ceil(step / 30) * 30); // whole half-minutes
+  const hi = Math.ceil(Math.max(...secs, avg) / tickStep) * tickStep || tickStep;
+  const left = 46, right = 14, top = 14, bottom = 34;
+  const plotW = width - left - right;
+  const plotH = Math.max(170, Math.min(260, width * 0.45));
+  const height = top + plotH + bottom;
+  const x = (i) => left + (n === 1 ? plotW / 2 : (i / (n - 1)) * plotW);
+  const y = (v) => top + plotH - (v / hi) * plotH;
+  let g = "";
+  for (let t = 0; t <= hi + 0.1; t += tickStep) {
+    g += `<line class="grid" x1="${left}" x2="${left + plotW}" y1="${y(t)}" y2="${y(t)}"/>`;
+    g += `<text class="tick" x="${left - 8}" y="${y(t) + 4}" text-anchor="end">${clock(t * 1000)}</text>`;
+  }
+  g += `<line class="axis" x1="${left}" x2="${left + plotW}" y1="${y(0)}" y2="${y(0)}"/>`;
+  const every = Math.max(1, Math.ceil(n / Math.max(2, Math.floor(plotW / 36))));
+  pts.forEach((_, i) => {
+    if (i % every === 0 || i === n - 1) g += `<text class="tick" x="${x(i)}" y="${top + plotH + 18}" text-anchor="middle">${i + 1}</text>`;
+  });
+  g += `<text class="axis-label" x="${left + plotW / 2}" y="${height - 2}" text-anchor="middle">Question, oldest to newest</text>`;
+  g += `<line class="avg" x1="${left}" x2="${left + plotW}" y1="${y(avg)}" y2="${y(avg)}"/>`;
+  g += `<text class="avg-label" x="${left + plotW}" y="${y(avg) - 6}" text-anchor="end">avg ${clock(avg * 1000)}</text>`;
+  if (n > 1) g += `<polyline class="line" points="${pts.map((_, i) => `${x(i)},${y(secs[i])}`).join(" ")}"/>`;
+  pts.forEach((a, i) => {
+    const label = `Question ${i + 1}, ${TYPE_LABEL[a.type]}, ${clock(a.ms)}, ${a.correct ? "right" : "wrong"}`;
+    g += `<g class="pt" data-id="${a.id}" data-i="${i}" tabindex="0" role="button" aria-label="${esc(label)}">
+      <circle class="hit" cx="${x(i)}" cy="${y(secs[i])}" r="14"/>
+      <circle class="dot ${a.correct ? "ok" : "bad"}" cx="${x(i)}" cy="${y(secs[i])}" r="5.5"/>
+    </g>`;
+  });
+  el.innerHTML = `<svg class="chart" width="${width}" height="${height}" viewBox="0 0 ${width} ${height}" role="img" aria-label="Time per question, ${esc(chartType === "all" ? "all types" : TYPE_LABEL[chartType])}">${g}</svg><div class="r-tip" hidden></div>`;
+  el._pts = pts.map((a, i) => ({ a, i, px: x(i), py: y(secs[i]), width }));
+}
+
+function showTip(g) {
+  const el = $("time-chart");
+  const p = el._pts?.[+g.dataset.i];
+  if (!p) return;
+  const tip = el.querySelector(".r-tip");
+  const q = byId.get(p.a.id);
+  const d = new Date(p.a.at);
+  tip.innerHTML = `<p class="r-tip-head"><span data-ok="${p.a.correct}">${p.a.correct ? "Right" : "Wrong"}</span> · ${clock(p.a.ms)}</p>
+    <p>${esc(BAND_LABEL[q.difficulty])} · ${esc(TYPE_LABEL[q.type])}</p>
+    <p class="r-tip-meta">${d.toLocaleDateString([], { month: "short", day: "numeric" })} · tap to review</p>`;
+  tip.hidden = false;
+  const tw = tip.offsetWidth;
+  tip.style.left = `${Math.min(Math.max(p.px - tw / 2, 0), p.width - tw)}px`;
+  tip.style.top = `${p.py - tip.offsetHeight - 14}px`;
+}
+function hideTip() {
+  const tip = $("time-chart").querySelector(".r-tip");
+  if (tip) tip.hidden = true;
+}
+
+$("time-chart").addEventListener("pointerover", (e) => { const g = e.target.closest(".pt"); if (g) showTip(g); });
+$("time-chart").addEventListener("pointerout", (e) => { if (e.target.closest(".pt") && !e.relatedTarget?.closest?.(".pt")) hideTip(); });
+$("time-chart").addEventListener("focusin", (e) => { const g = e.target.closest(".pt"); if (g) showTip(g); });
+$("time-chart").addEventListener("focusout", hideTip);
+$("time-chart").addEventListener("click", (e) => { const g = e.target.closest(".pt"); if (g) openReview(g.dataset.id); });
+$("time-chart").addEventListener("keydown", (e) => {
+  const g = e.target.closest(".pt");
+  if (g && (e.key === "Enter" || e.key === " ")) { e.preventDefault(); openReview(g.dataset.id); }
+});
+$("chart-type").addEventListener("change", (e) => {
+  chartType = e.target.value;
+  try { localStorage.setItem(CHART_KEY, chartType); } catch {}
+  renderTimeChart();
+});
+let chartResizeTimer;
+addEventListener("resize", () => { clearTimeout(chartResizeTimer); chartResizeTimer = setTimeout(() => { if (view === "stats") renderTimeChart(); }, 150); });
 $("back-to-stats").addEventListener("click", () => setView("stats"));
 $("review").addEventListener("click", (e) => {
   const mark = e.target.closest("mark.hl");
@@ -720,6 +818,8 @@ document.addEventListener("keydown", (e) => {
 async function start() {
   $("type-filter").value = filter;
   $("band-filter").value = band;
+  $("chart-type").innerHTML = `<option value="all">All types</option>` + Object.entries(TYPE_LABEL).map(([k, v]) => `<option value="${k}">${v}</option>`).join("");
+  $("chart-type").value = chartType;
   try {
     const res = await fetch("questions.json");
     if (!res.ok) throw new Error(res.status);

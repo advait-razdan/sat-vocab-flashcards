@@ -4,6 +4,14 @@
 
 export const DAY = 86400000;
 
+// Answers, highlights and notes on the original question set ("older" ids such as
+// inf-001) made before this moment were deleted at the user's request. Merging
+// drops them, so they also disappear from the gist on the next sync. Later
+// answers to older questions are kept only so those questions aren't repeated.
+export const PURGE_BEFORE = 1794394319000;
+export const isOlderId = (id) => /^(inf|evi|qnt|str)-\d+$/.test(id);
+const purged = (id, t) => isOlderId(id) && !(t >= PURGE_BEFORE);
+
 export function emptyReading() {
   return { version: 1, attempts: {}, marks: {} };
 }
@@ -15,9 +23,11 @@ export function mergeReading(a, b) {
   const marks = {};
   for (const src of [a ?? {}, b ?? {}]) {
     for (const [id, at] of Object.entries(src.attempts ?? {})) {
+      if (purged(id, at.at)) continue;
       if (!attempts[id] || at.at < attempts[id].at) attempts[id] = at;
     }
     for (const [id, m] of Object.entries(src.marks ?? {})) {
+      if (purged(id, m.updatedAt)) continue;
       if (!marks[id] || m.updatedAt > marks[id].updatedAt) marks[id] = m;
     }
   }
@@ -61,9 +71,9 @@ function summarize(list) {
 
 // Solved count, accuracy and average time for today (since local midnight),
 // the last 7 days, the last 30 days and all time, plus all-time accuracy by type and by band.
+// Answers to the older question set never count.
 export function readingStats(questions, attempts, now) {
-  const byIdQ = new Map(questions.map((q) => [q.id, q]));
-  const all = Object.entries(attempts).map(([id, a]) => ({ ...a, id, type: byIdQ.get(id)?.type, band: byIdQ.get(id)?.difficulty }));
+  const all = counted(questions, attempts);
   const since = (t) => all.filter((a) => a.at >= t);
   const byType = {};
   const byBand = {};
@@ -79,6 +89,21 @@ export function readingStats(questions, attempts, now) {
     byType: Object.fromEntries(Object.entries(byType).map(([t, l]) => [t, summarize(l)])),
     byBand: Object.fromEntries(Object.entries(byBand).map(([b, l]) => [b, summarize(l)])),
   };
+}
+
+// Attempts on banded (non-older) questions, with the question's type and band.
+function counted(questions, attempts) {
+  const byIdQ = new Map(questions.map((q) => [q.id, q]));
+  return Object.entries(attempts)
+    .filter(([id]) => byIdQ.has(id) && byIdQ.get(id).difficulty !== "older")
+    .map(([id, a]) => ({ ...a, id, type: byIdQ.get(id).type, band: byIdQ.get(id).difficulty }));
+}
+
+// Counted attempts of one type (or "all"), oldest first, for the time chart.
+export function timeline(questions, attempts, type = "all") {
+  return counted(questions, attempts)
+    .filter((a) => type === "all" || a.type === type)
+    .sort((x, y) => x.at - y.at);
 }
 
 // Attempts newest first, for the history list.

@@ -158,7 +158,8 @@ export async function syncReading(local) {
     throw e;
   }
   const merged = mergeReading(local, remote);
-  if (stable(merged) !== stable(mergeReading(remote, {}))) {
+  // Compare with the raw remote file, so data dropped by the merge is also removed from the gist.
+  if (stable(merged) !== stable({ version: 1, attempts: remote?.attempts ?? {}, marks: remote?.marks ?? {} })) {
     await api(`/gists/${gistId}`, token, {
       method: "PATCH",
       body: JSON.stringify({ files: { [READING_FILE]: { content: JSON.stringify(merged) } } }),
